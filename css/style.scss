@@ -198,6 +198,7 @@ body {
         & .banner { 
             width: 100%;
             border-radius: 20px;    
+            box-shadow: 0 0 10px $black;
         }
 }
 // final main !!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -319,6 +320,26 @@ body {
 }
 // final pagina dos jogos !!!!!!!!!!!!!!!!!!!!!!!!
 
+//pagina suport ajuste 
+.conteiner-global {
+    & .suport {
+        margin: 80px auto;
+        width: 95%;
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.445);
+        padding: 20px 10px;
+        box-shadow: 0 0 10px black;
+        background-color: #003439;
+        background-image: linear-gradient(111deg, #002f33 0%, #003c41 48%, #002f33 100%);
+        text-align: center;
+            // h2
+                & h2 {
+                    color: $aqua;margin-bottom: 20px;
+                }
+    }
+}
+// final da pagina suport ajuste
+
 //  color da barra de rolagem
 ::-webkit-scrollbar {
     background-color: rgb(0, 0, 0);
@@ -327,7 +348,13 @@ body {
        background-color: rgb(0, 103, 121);
    }
 // final color da barra de rolagem
-
+@media (min-width:530px) {
+    .conteiner-global{
+        & .suport {
+            width:500px ;
+        }
+    }
+}
 @media (min-width:700px) {
     
     .carrosel-desk {

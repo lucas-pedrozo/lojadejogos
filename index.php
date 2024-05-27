@@ -14,7 +14,7 @@
     <base href="http://localhost/lojadejogos/">
     
     
-    <link rel="shortcut icon" href="imagens/logo2.png">
+    <link rel="shortcut icon" href="imagens/logo3.jpeg">
 
     <link rel="stylesheet" href="css/style.css">
 

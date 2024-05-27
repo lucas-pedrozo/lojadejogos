@@ -76,4 +76,10 @@ h3 {
   padding: 50px 10px;
 }
 
+@media (min-width: 550px) {
+  .login {
+    width: 500px;
+  }
+}
+
 /*# sourceMappingURL=login.css.map */
