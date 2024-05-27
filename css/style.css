@@ -1,0 +1,308 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #011c1f;
+  background-image: linear-gradient(135deg, #00090f 0%, #001a1f 50%, #00090f 100%);
+  font-family: 16px;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif !important;
+  color: white !important;
+}
+
+.navbar-brand img {
+  width: 40px;
+  border-radius: 10px;
+}
+
+#navbar {
+  backdrop-filter: blur(200px);
+  border-radius: 0 0 20px 20px;
+}
+#navbar .navbar-toggler {
+  background-color: #00456d  !important;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.37);
+  z-index: 99999;
+}
+#navbar .nav-link {
+  color: white !important;
+  font-size: 14px;
+}
+#navbar .collapse .btn {
+  background-color: #d66f00;
+  background-image: linear-gradient(135deg, #ca6800 0%, #dfa000 100%);
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.753);
+  margin-left: 10px;
+  transition: 300ms !important;
+}
+#navbar .collapse .btn:hover {
+  transform: scale(1.04) !important;
+  box-shadow: 0 0 10px #744b00;
+}
+
+.dropdown-menu {
+  background-color: #003333 !important;
+  z-index: 99999;
+}
+.dropdown-menu .dropdown-item {
+  color: white !important;
+  font-size: 14px;
+  font-weight: 600;
+}
+.dropdown-menu .dropdown-item:hover {
+  background-color: #007566;
+  border-radius: 20px;
+  color: white !important;
+}
+
+.footer {
+  background-color: #002227;
+  background-image: linear-gradient(0deg, #001c20 0%, #002d33 80%);
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 0 10px black;
+  padding: 6px;
+}
+.footer .text-footer {
+  text-align: center;
+  font-size: 1.3rem;
+  padding-bottom: 5px;
+  color: aqua;
+}
+.footer .links {
+  display: flex;
+  justify-content: center;
+  gap: 0 30px;
+}
+.footer .links a {
+  font-size: 24px;
+  color: white;
+}
+
+.carrosel-desk {
+  display: none;
+}
+.carrosel-desk .carousel-item img {
+  opacity: 60%;
+}
+
+.carrose-mobile {
+  display: block;
+  margin-top: 60px;
+}
+
+.conteiner-global {
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+.conteiner-global h1 {
+  text-align: center;
+  font-size: 1.4rem;
+  color: aqua;
+  margin: 60px 0;
+  box-sizing: border-box;
+}
+.conteiner-global .card-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.conteiner-global .card-flex .card-info {
+  width: 90%;
+  background-color: #001025;
+  border-radius: 20px;
+  box-shadow: 0 0 13px black;
+  margin: auto;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+}
+.conteiner-global .card-flex .card-info img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 3px 5px rgba(255, 255, 255, 0.192);
+}
+.conteiner-global .card-flex .card-info .card-descricao {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 10px 10px 10px;
+}
+.conteiner-global .card-flex .card-info .card-descricao p {
+  color: white;
+}
+.conteiner-global .card-flex .card-info .card-descricao span P {
+  background-color: #005f1d;
+  border-radius: 2px;
+  padding: 2px;
+  color: lime;
+  font-weight: 500;
+  box-shadow: 0 0 4px black;
+}
+
+.conteiner-global .carousel {
+  margin-top: 60px;
+}
+.conteiner-global .descricao {
+  background-color: #001025;
+  width: 95%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px black;
+  margin: 10px auto;
+  padding: 10px;
+}
+.conteiner-global .descricao h4 {
+  text-align: center;
+  color: white;
+}
+.conteiner-global .descricao .historia {
+  color: white;
+  text-align: start;
+  margin: 10px 0;
+}
+.conteiner-global .descricao p {
+  color: white;
+  font-size: 12px;
+  margin: 0 0 10px 0;
+}
+.conteiner-global .descricao p span {
+  color: #00aeff;
+}
+.conteiner-global .descricao .dev {
+  margin-top: 15px;
+}
+.conteiner-global .descricao .dev a {
+  background-color: #d66f00;
+  background-image: linear-gradient(135deg, #ff9100 0%, #e7b716 100%);
+  border-radius: 20px;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 300ms !important;
+}
+.conteiner-global .text-requisito {
+  text-align: center;
+  color: aqua;
+  margin: 30px 0;
+}
+.conteiner-global .requisitos-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.conteiner-global .requisitos-flex .requisitos {
+  background-color: #001025;
+  width: 95%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px black;
+  margin: 10px auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.conteiner-global .requisitos-flex .requisitos h4 {
+  text-align: center;
+  color: white;
+}
+.conteiner-global .requisitos-flex .requisitos .sistema {
+  color: white;
+  margin-left: 30px;
+}
+.conteiner-global .requisitos-flex .requisitos p {
+  font-size: 12px;
+  margin: 0 0 10px 0;
+}
+.conteiner-global .requisitos-flex .requisitos p span {
+  color: #00aeff;
+  font-size: 12px;
+}
+.conteiner-global .link {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+.conteiner-global .link .link-jogue {
+  background-color: #d66f00;
+  background-image: linear-gradient(135deg, #ff9100 0%, #e7b716 100%);
+  border-radius: 20px;
+  padding: 5px 8px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  transition: 300ms !important;
+}
+.conteiner-global .link .link-jogue:hover {
+  transform: scale(1.05) !important;
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 166, 0, 0.774);
+}
+
+::-webkit-scrollbar {
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #006779;
+}
+
+@media (min-width: 700px) {
+  .carrosel-desk {
+    display: block;
+  }
+
+  .carrosel-mobile {
+    display: none;
+  }
+
+  .conteiner-global .card-flex .card-info {
+    width: 48%;
+  }
+  .conteiner-global .descricao {
+    width: 50%;
+  }
+  .conteiner-global .requisitos-flex .requisitos {
+    width: 40%;
+  }
+}
+@media (min-width: 990px) {
+  #navbar .nav-link {
+    transition: 300ms all !important;
+  }
+  #navbar .nav-link:hover {
+    transform: scale(1.05) !important;
+    color: #ffe600 !important;
+  }
+
+  .conteiner-global {
+    width: 1000px;
+  }
+  .conteiner-global .card-flex .card-info {
+    width: 30%;
+    transition: 300ms !important;
+  }
+  .conteiner-global .card-flex .card-info:hover {
+    transform: scale(1.02) !important;
+    box-shadow: 0 0 10px #002657;
+  }
+  .conteiner-global .carousel-item video {
+    border-radius: 20px;
+  }
+  .conteiner-global .carousel-item img {
+    border-radius: 20px;
+  }
+  .conteiner-global .descricao {
+    width: 50%;
+  }
+  .conteiner-global .requisitos-flex .requisitos {
+    width: 40%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,386 @@
+// color BG
+$BG-1:#011c1f;
+$BG-2: linear-gradient(135deg, #00090f 0%, #001a1f 50%, #00090f 100%);
+// color primaria
+$white:white;
+$black:black;
+$aqua:aqua;
+// color palete
+$color-1:rgb(0, 51, 51);
+
+// classes
+.text.center {
+
+}
+// scroll 
+html {
+    scroll-behavior: smooth;
+}
+// reset
+* {
+    margin: 0;
+    padding: 0;
+}
+// fundo do site 
+body {
+    background-color: $BG-1;
+    background-image: $BG-2;
+    font-family: 16px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif !important;
+    color: $white!important;
+}
+// navbar logo
+.navbar-brand {
+    & img {
+        width: 40px;
+        border-radius: 10px;
+    }
+}
+// navbar
+#navbar {
+    backdrop-filter: blur(200px);
+    border-radius: 0 0 20px 20px;
+        // navbar menu
+        & .navbar-toggler {
+        background-color: #00456d  !important;         
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.37);
+            z-index: 99999;
+}      
+    // navbar links A
+    & .nav-link {
+        color: $white!important;
+        font-size: 14px;
+}      
+    // navbar login
+    & .collapse {
+        // botão
+        & .btn {
+            background-color: #d66f00;
+            background-image: linear-gradient(135deg, #ca6800 0%, #dfa000 100%); 
+            border-radius: 20px;
+            border: none;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.753);
+            // ajuste
+            margin-left: 10px;
+            transition: 300ms !important;
+                &:hover {
+                    transform: scale(1.04) !important;
+                    box-shadow: 0 0 10px rgb(116, 75, 0);
+                }
+        }
+    }
+}
+
+// navbar dropdown
+.dropdown-menu {
+    background-color:$color-1 !important;
+    z-index: 99999;
+    & .dropdown-item {
+        color: $white !important; 
+        font-size: 14px;
+        font-weight: 600;
+       
+            &:hover {
+                background-color: #007566;
+                border-radius: 20px;
+                color: rgb(255, 255, 255)!important;
+            }
+        }
+    }
+
+// footer !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+.footer {
+    background-color: #002227;
+    background-image: linear-gradient(0deg, #001c20 0%, #002d33 80%);
+    border-radius: 10px 10px 0 0 ;
+    box-shadow: 0 0 10px rgb(0, 0, 0); 
+    padding: 6px;
+        & .text-footer {
+            text-align: center;
+            font-size: 1.3rem;
+            padding-bottom: 5px;
+            color: $aqua;
+        }   
+    & .links {
+        display: flex;
+        justify-content: center;
+        gap: 0 30px;
+          & a {
+            font-size: 24px;
+            color: $white;
+        }
+    }
+}
+// carrosel 
+.carrosel-desk {
+    display: none; 
+    & .carousel-item {
+        & img {
+            opacity: 60%;
+        }
+    }
+}
+
+.carrose-mobile {
+    display: block;
+    margin-top:60px;
+}
+// final carrosel
+
+// main!!!!!!!!!!!!!!!!!!!!!!!!!!!
+.conteiner-global {
+    width: 100%;
+    margin:auto;
+    box-sizing: border-box;
+    // h1 jogos em destaque
+        & h1 {
+            text-align: center;
+            font-size: 1.4rem;
+            color: $aqua;
+            margin: 60px 0;
+            box-sizing: border-box;
+}
+    //card de jogos
+        & .card-flex {
+            display: flex;
+            justify-content: center;
+           flex-wrap: wrap;
+                // informações dos cards
+                    & .card-info {
+                        width: 90%;
+                        background-color: #001025;
+                        border-radius: 20px;
+                        box-shadow: 0 0 13px $black;
+                        margin: auto;
+                        margin-bottom: 40px;
+                        box-sizing: border-box;
+                            //imgens
+                                & img {
+                                    width: 100%;
+                                    border-radius: 20px;
+                                    box-shadow: 0 3px 5px rgba(255, 255, 255, 0.192);
+                                }
+                // card descrição
+                    & .card-descricao {
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 18px 10px 10px 10px;
+                            //nome do jogo
+                                & p {
+                                    color: $white;
+                                }
+                                // preço do jogo  
+                                    & span {
+                                        & P {
+                                            background-color: #005f1d;
+                                            border-radius: 2px;
+                                            padding: 2px;
+                                            color: rgb(0, 255, 0);
+                                            font-weight: 500;
+                                            box-shadow: 0 0 4px black;
+                    }
+                }
+            }
+        }
+    }
+}
+// final main !!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+// pagina sobre os jogos !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+.conteiner-global {
+    // carrosel 
+    & .carousel {
+        margin-top: 60px;
+    }
+    //descrição do jogo
+    & .descricao {
+        background-color: #001025;
+        width: 95%;
+        border-radius: 20px;
+        box-shadow: 0 0 10px $black;
+        margin: 10px auto;
+        padding: 10px;
+            // texto descrição
+            & h4     {
+                text-align: center;
+                color:$white;
+            }
+            // historia do jogo
+            & .historia {
+                color: $white;
+                text-align: start;
+                margin: 10px 0;
+            }
+        & p {
+            color: white;
+            font-size: 12px;
+            margin: 0 0 10px 0;
+                & span {
+                    color: #00aeff ;
+                }
+        }
+                // site do desenvolvedor
+                & .dev {
+                    margin-top: 15px;
+                   & a {
+                        background-color: #d66f00;
+                        background-image: linear-gradient(135deg, #ff9100 0%, #e7b716 100%); 
+                        border-radius: 20px;
+                        padding: 5px;
+                        text-decoration: none;
+                        color: $black;
+                        font-weight: 600;
+                        font-size: 14px;
+                        transition: 300ms !important;
+            }
+        }
+
+    }
+    // texto requisitos
+    & .text-requisito {
+        text-align: center;
+        color: $aqua;
+        margin: 30px 0;
+        
+    }
+            // requisitos conteiner
+                & .requisitos-flex {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    box-sizing: border-box;
+                        // requisitos block
+                        & .requisitos {
+                            background-color: #001025;
+                            width: 95%;
+                            border-radius: 20px;
+                            box-shadow: 0 0 10px $black;
+                            margin: 10px auto;
+                            padding: 10px;
+                            box-sizing: border-box;
+                                //  titulo do requito
+                                    & h4 {
+                                        text-align: center;
+                                        color: $white;
+                                    }
+                                            // sistema
+                                            & .sistema {
+                                                color: $white;
+                                                margin-left: 30px;
+                                            }
+                                        & p {
+                                            font-size: 12px;
+                                            margin: 0 0 10px 0;
+                                            & span {
+                                                color: #00aeff ;
+                                                font-size: 12px;
+                                            }
+            }
+        } 
+    }
+                // link para joguar 
+               & .link {
+                display: flex;
+                margin-bottom: 30px;
+                justify-content: center;
+                    & .link-jogue {
+                        background-color: #d66f00;
+                        background-image: linear-gradient(135deg, #ff9100 0%, #e7b716 100%); 
+                        border-radius: 20px;
+                        padding: 5px 8px;
+                        text-decoration: none;
+                        color: $black;
+                        font-weight: 600;
+                        transition: 300ms !important;
+                            &:hover {
+                                transform: scale(1.05) !important;
+                                color: $white;
+                                box-shadow: 0 0 10px rgba(255, 166, 0, 0.774);
+                            }
+                    }
+               }
+
+}
+// final pagina dos jogos !!!!!!!!!!!!!!!!!!!!!!!!
+
+//  color da barra de rolagem
+::-webkit-scrollbar {
+    background-color: rgb(0, 0, 0);
+   }
+   ::-webkit-scrollbar-thumb {
+       background-color: rgb(0, 103, 121);
+   }
+// final color da barra de rolagem
+
+@media (min-width:700px) {
+    
+    .carrosel-desk {
+        display: block;
+    }
+        .carrosel-mobile {
+            display: none;
+        }
+        .conteiner-global {
+            & .card-flex {
+            
+               & .card-info {
+                width: 48%;
+               }
+            }
+            // pagina de jogos
+            & .descricao {
+                width: 50%;
+            }
+             & .requisitos-flex  {
+                & .requisitos {
+                    width: 40%;
+                }
+             }
+        }
+}
+
+@media (min-width:990px) {
+    #navbar {
+        // links da barra de navegação
+        & .nav-link {
+            transition: 300ms all !important;   
+                &:hover {
+                    transform: scale(1.05)!important;
+                    color: rgb(255, 230, 0)!important;
+            }
+        }
+    }
+.conteiner-global {
+    width: 1000px;
+    & .card-flex {
+        & .card-info {
+            width: 30%;
+            transition: 300ms !important;
+            &:hover {
+                transform: scale(1.02) !important;
+                box-shadow: 0 0 10px #002657;
+            }
+        }
+    }
+
+
+
+    // pagina de jogos
+                    & .carousel-item {
+                            & video {
+                                border-radius: 20px;
+                            }
+                        & img {
+                            border-radius: 20px;
+                        } 
+                    }
+    & .descricao {
+        width: 50%;
+    }
+     & .requisitos-flex  {
+        & .requisitos {
+            width: 40%;
+        }
+     }
+}
+}
