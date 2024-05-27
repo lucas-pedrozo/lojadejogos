@@ -69,6 +69,44 @@
   <!-- cards de jogos -->
   <div class="card-flex">
 
+    
+
+    <div class="card-info" data-aos="fade-up" data-aos-duration="400">
+      <!-- imagens do card -->
+      <a href="jogo/hollow"> <img src="imagens/hollow-3.png" alt="ghost"></a>
+      <div class="card-descricao">
+        <p>Hollow Knight</p>
+        <span> <p>R$:56,99</p> </span>
+      </div>
+    </div>
+
+
+    <div class="card-info" data-aos="fade-up" data-aos-duration="400">
+      <!-- imagens do card -->
+      <a href="jogo/golden-1"> <img src="imagens/golden-3.png" alt="ghost"></a>
+      <div class="card-descricao">
+        <p>Golden Apple</p>
+        <span> <p>R$: Free</p> </span>
+      </div>
+    </div>
+
+    <div class="card-info" data-aos="fade-up" data-aos-duration="400">
+      <!-- imagens do card -->
+      <a href="#"> <img src="imagens/minecraft-3.png" alt="ghost"></a>
+      <div class="card-descricao">
+        <p>Minecraft Dungeons</p>
+        <span> <p>R$:47,99</p> </span>
+      </div>
+    </div>
+
+  </div>
+
+    <img src="imagens/minecraft-4.png" alt="minecraft Dungeons" class="banner">
+
+      <h2 class="lancamento">Lançamento</h2>
+
+    <div class="card-flex">
+
     <div class="card-info" data-aos="fade-up" data-aos-duration="400">
       <!-- imagens do card -->
       <a href="#"> <img src="imagens/ghost-3.png" alt="ghost"></a>
@@ -93,17 +131,17 @@
       <div class="card-descricao">
         <p>Horizon Zero Dows</p>
         <span>
-          <p>R$:200,99</p>
+          <p>R$:149,00</p>
         </span>
       </div>
     </div>
 
     <div class="card-info" data-aos="fade-up" data-aos-duration="400">
       <!-- imagens do card -->
-      <a href="jogo/golden-1"> <img src="imagens/golden-3.png" alt="ghost"></a>
+      <a href=""> <img src="imagens/islets-3.png" alt="ghost"></a>
       <div class="card-descricao">
-        <p>Golden Apple</p>
-        <span> <p>R$:200,99</p> </span>
+        <p>Islets</p>
+        <span> <p>R$: 46,99</p> </span>
       </div>
     </div>
 
@@ -121,7 +159,7 @@
       <a href="#"> <img src="imagens/hogwarts-3.png" alt="ghost"></a>
       <div class="card-descricao">
         <p>Hogwarts Legacy</p>
-        <span> <p>R$:200,99</p> </span>
+        <span> <p>R$:192,78</p> </span>
       </div>
     </div>
 
