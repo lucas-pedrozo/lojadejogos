@@ -10,8 +10,8 @@
     
     <title>Crack Games</title>
     
-    <base href="https://crackgamess.000webhostapp.com/">
-    <!-- <base href="http://localhost/lojadejogos/"> -->
+    <!-- <base href="https://crackgamess.000webhostapp.com/"> -->
+    <base href="http://localhost/lojadejogos/"> 
     
     
     <link rel="shortcut icon" href="imagens/logo3.jpeg">
@@ -28,7 +28,7 @@
 </head>
 <body> 
 <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary_"  id="navbar">
+    <nav class="navbar navbar-expand-lg v"  id="navbar">
 
     <div class="container-fluid">
 
@@ -47,14 +47,14 @@
             <a class="nav-link active" aria-current="page" href="index.php">LOJA</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="suporte">SUPORTE</a>
+            <a class="nav-link active" aria-current="page" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">SUPORTE</a>
             </li>
 
             <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="" data-bs-toggle="dropdown" aria-expanded="false">JOGOS</a>
                 <ul class="dropdown-menu ">
-                <li><a class="dropdown-item" href="#">Ghost of Tsushima</a></li>
-                <li><a class="dropdown-item" href="#">Ghost of Tsushima</a></li>
+                <li><a class="dropdown-item" href="jogo/Golden-1">Em Busca da Golden Apple</a></li>
+                <li><a class="dropdown-item" href="jogo/hollow">Hollow Knight</a></li>
                 <li><a class="dropdown-item" href="#">Horizon Zero Down</a></li>
                 <li><a class="dropdown-item" href="#">Ghost of Tsushima</a></li>
                 <li><a class="dropdown-item" href="#">Ghost of Tsushima</a></li>
@@ -73,9 +73,38 @@
     </div>
     </nav>
 
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Fale Com Nosco</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Qual seu nome:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Qual é sua mensagem:</label>
+            <textarea class="form-control" id="message-text" rows="6"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn" data-bs-dismiss="modal">Fechar</button>
+        <button type="button" class="btn" data-bs-dismiss="modal">Enviar</button>
+      </div>
+    </div>
+  </div>
+
+</div>
 
 </header>
 <main>
+
         
     <?php
 

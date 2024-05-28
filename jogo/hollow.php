@@ -39,7 +39,7 @@
         </div>
     </div>
 
-    <h2 class="text-requisito" data-aos="fade-up" data-aos-duration="300">Requisitos</h2>
+    <h3 class="text-requisito" data-aos="fade-up" data-aos-duration="300">Requisitos</h3>
 
     <div class="requisitos-flex">
         <div class="requisitos" data-aos="fade-up" data-aos-duration="400">
@@ -62,9 +62,9 @@
             <p><span>DirectX:</span> Versão 11</p>
         </div>
     </div>
-    <h2 class="text-requisito" data-aos="fade-up" data-aos-duration="300">
-    Link Abaixo
-    </h2>
+    <h4 class="text-requisito" data-aos="fade-up" data-aos-duration="300">
+    Link abaixo
+    </h4>
 
     <div class="link"data-aos="fade-up" data-aos-duration="400">
     <a href="" class="link-jogue">Jogue Agora</a>

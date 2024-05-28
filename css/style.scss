@@ -37,11 +37,52 @@ body {
         border-radius:10px;
     }
 }
+// contato
+#exampleModal {
+    z-index: 9999!important;
+    backdrop-filter: blur(5px);
+    // color do BG 
+        & .modal-content{
+            background-color: #011c1f !important;
+            background-image: linear-gradient(135deg, #000f1a 0%, #001a1f 50%, #000f1a 100%) !important;
+            border: 1px solid rgba(0, 116, 136, 0.541);
+            box-shadow: 0 0 10px rgba(0, 116, 136, 0.541);
+                    & h1 {
+                        color: aqua;
+                    }
+                                & input {
+                                    //border-radius: 154px;
+                                }
+                & .btn-close {
+                    background-color: white;
+                }
+            //botões
+            & .modal-footer {
+                & .btn {
+                        background-color: #d66f00;
+                        background-image: linear-gradient(135deg, #ca6800 0%, #dfa000 100%); 
+                        border-radius: 20px;
+                        border: none;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.753);
+                        color: $black;
+                        font-weight: 600;
+                        // ajuste
+                        margin-left: 10px;
+                        transition: 300ms !important;
+                            &:hover {
+                                transform: scale(1.04) !important;
+                                box-shadow: 0 0 10px rgb(116, 75, 0);
+                                color: $white;
+                }
+            }
+        }
+    }
+}
 // navbar
 .navbar {
     backdrop-filter: blur(200px);
     border-radius: 0 0 20px 20px;
-    z-index: 99999 !important;
+    z-index: 999 !important;
         // navbar menu
         & .navbar-toggler {
         background-color: #00456d  !important;         
@@ -50,7 +91,7 @@ body {
 }      
     // navbar links A
     & .nav-link {
-        color: $white!important;
+        color: $white!important;    
         font-size: 14px;
 }      
     // navbar login
@@ -120,7 +161,7 @@ body {
     & .carousel-item {
         & img {
            opacity: 60%;
-            z-index: -2;
+            z-index: -2!important;
             
             
         }
@@ -130,6 +171,15 @@ body {
 .carrose-mobile {
     display: block;
     margin-top:60px;
+    & .carousel-item {
+        & img {
+           opacity: 60%;
+            z-index: -2!important;
+            
+            
+        }
+    }
+    
 }
 // final carrosel
 
@@ -220,7 +270,7 @@ body {
         width: 95%;
         border-radius: 20px;
         box-shadow: 0 0 10px $black;
-        margin: 10px auto;
+        margin: 20px auto;
         padding: 10px;
             // texto descrição
             & h4     {
@@ -314,6 +364,7 @@ body {
                         color: $black;
                         font-weight: 600;
                         transition: 300ms !important;
+                        font-size: 15px;
                             &:hover {
                                 transform: scale(1.05) !important;
                                 color: $white;
@@ -327,27 +378,6 @@ body {
         }
 }
 // final pagina dos jogos !!!!!!!!!!!!!!!!!!!!!!!!
-
-//pagina suport ajuste 
-.conteiner-global {
-    & .suport {
-        margin: 80px auto;
-        width: 95%;
-        border-radius: 20px;
-        border: 1px solid rgba(255, 255, 255, 0.445);
-        padding: 20px 10px;
-        box-shadow: 0 0 10px black;
-        background-color: #003439;
-        background-image: linear-gradient(111deg, #002f33 0%, #003c41 48%, #002f33 100%);
-        text-align: center;
-            // h2
-                & h2 {
-                    color: $aqua;margin-bottom: 20px;
-                }
-    }
-}
-// final da pagina suport ajuste
-
 //  color da barra de rolagem
 ::-webkit-scrollbar {
     background-color: rgb(0, 0, 0);

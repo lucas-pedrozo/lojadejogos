@@ -101,9 +101,9 @@
 
   </div>
 
-    <img src="imagens/horizon-2.png" alt="minecraft Dungeons" class="banner">
+    <img src="imagens/horizon-2.png" alt="minecraft Dungeons" class="banner" data-aos="fade-up" data-aos-duration="400">
 
-      <h2 class="lancamento">Lançamento</h2>
+      <h2 class="lancamento" data-aos="fade-up" data-aos-duration="400">Lançamento</h2>
 
     <div class="card-flex">
 
