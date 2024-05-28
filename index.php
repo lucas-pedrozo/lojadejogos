@@ -84,11 +84,13 @@
       <div class="modal-body">
         <form>
           <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">Qual seu nome:</label>
-            <input type="text" class="form-control" id="recipient-name">
+            <label for="recipient-name" class="col-form-label">Digite Seu Email:</label>
+            <input type="email" name="nome" id="email" class="form-control" >
+                        <label for="recipient-name" class="col-form-label">Digite Seu Nome:</label>
+                        <input type="text" class="form-control">
           </div>
           <div class="mb-3">
-            <label for="message-text" class="col-form-label">Qual é sua mensagem:</label>
+            <label for="message-text" class="col-form-label">Digite sua mensagem:</label>
             <textarea class="form-control" id="message-text" rows="6"></textarea>
           </div>
         </form>
@@ -96,6 +98,10 @@
       <div class="modal-footer">
         <button type="button" class="btn" data-bs-dismiss="modal">Fechar</button>
         <button type="button" class="btn" data-bs-dismiss="modal">Enviar</button>
+
+            
+
+
       </div>
     </div>
   </div>
@@ -103,9 +109,7 @@
 </div>
 
 </header>
-<main>
-
-        
+<main> 
     <?php
 
         if (isset($_GET["param"])) {

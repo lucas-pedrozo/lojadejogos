@@ -170,7 +170,6 @@ body {
 
 .carrose-mobile {
     display: block;
-    margin-top:60px;
     & .carousel-item {
         & img {
            opacity: 60%;
@@ -365,6 +364,7 @@ body {
                         font-weight: 600;
                         transition: 300ms !important;
                         font-size: 15px;
+                        text-align: center;
                             &:hover {
                                 transform: scale(1.05) !important;
                                 color: $white;

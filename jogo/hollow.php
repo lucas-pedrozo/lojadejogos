@@ -67,10 +67,10 @@
     </h4>
 
     <div class="link"data-aos="fade-up" data-aos-duration="400">
-    <a href="" class="link-jogue">Jogue Agora</a>
+    <a href="jogo/catgame/index.html" class="link-jogue">Jogue Agora</a>
     </div>
 
-    <div class="accordion " id="accordionPanelsStayOpenExample" data-bs-theme="dark">
+    <div class="accordion " id="accordionPanelsStayOpenExample" data-bs-theme="dark" data-aos="fade-up">
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
@@ -79,7 +79,7 @@
     </h2>
     <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
       <div class="accordion-body">
-        <strong>Bom</strong> Jogo muito educativo e didático, me surpreendeu bastante, parabéns aos criadores!!!
+        <strong color="green">Bom</strong> Jogo muito educativo e didático, me surpreendeu bastante, parabéns aos criadores!!!
       </div>
     </div>
   </div>
