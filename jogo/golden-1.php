@@ -64,4 +64,42 @@
     <div class="link"data-aos="fade-up" data-aos-duration="400">
     <a href="jogo/golden/index.html" class="link-jogue">Jogue Agora</a>
     </div>
+    <div class="accordion " id="accordionPanelsStayOpenExample" data-bs-theme="dark">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Rodigo dos santos
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+      <div class="accordion-body">
+        <strong>Muito Ruim</strong> inferno a porra da colisao da mao que te ajudaria a subir mais atrapalha q tudo, a criador deu o cu de mal jeito quandopensou nesse jogo NÂO vale 100 R$
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Luana Patricia
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+      <div class="accordion-body">
+      <strong>Bom</strong> Jogo muito educativo e didático, me surpreendeu bastante, parabéns aos criadores!!!
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+     Lucas Pedrozo
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+      <div class="accordion-body">
+      <strong>Bom</strong> Jogo muito educativo e didático, me surpreendeu bastante, parabéns aos criadores!!!
+      </div>
+    </div>
+  </div>
+</div>
 </section>

@@ -101,7 +101,7 @@
 
   </div>
 
-    <img src="imagens/minecraft-4.png" alt="minecraft Dungeons" class="banner">
+    <img src="imagens/horizon-2.png" alt="minecraft Dungeons" class="banner">
 
       <h2 class="lancamento">Lançamento</h2>
 

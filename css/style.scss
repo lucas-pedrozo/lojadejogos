@@ -10,7 +10,8 @@ $color-1:rgb(0, 51, 51);
 
 // classes
 .text.center {
-
+    margin: auto;
+    text-align: center;
 }
 // scroll 
 html {
@@ -37,9 +38,10 @@ body {
     }
 }
 // navbar
-#navbar {
+.navbar {
     backdrop-filter: blur(200px);
     border-radius: 0 0 20px 20px;
+    z-index: 99999 !important;
         // navbar menu
         & .navbar-toggler {
         background-color: #00456d  !important;         
@@ -74,12 +76,12 @@ body {
 // navbar dropdown
 .dropdown-menu {
     background-color:$color-1 !important;
-    z-index: 99999;
+    z-index: 99999 !important;
     & .dropdown-item {
         color: $white !important; 
         font-size: 14px;
         font-weight: 600;
-        z-index: 99999;
+        z-index: 99999 !important;
        
             &:hover {
                 background-color: #007566;
@@ -117,8 +119,10 @@ body {
     display: none; 
     & .carousel-item {
         & img {
-            opacity: 60%;
+           opacity: 60%;
             z-index: -2;
+            
+            
         }
     }
 }
@@ -133,6 +137,7 @@ body {
 .conteiner-global {
     width: 100%;
     margin:auto;
+    margin-bottom: 20px;
     box-sizing: border-box;
     // h1 jogos em destaque
         & h1 {
@@ -316,7 +321,10 @@ body {
                             }
                     }
                }
-
+        // comentario
+        & .accordion {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.664);
+        }
 }
 // final pagina dos jogos !!!!!!!!!!!!!!!!!!!!!!!!
 

@@ -10,8 +10,8 @@
     
     <title>Crack Games</title>
     
-    <!-- <base href="https://crackgamess.000webhostapp.com/"> -->
-    <base href="http://localhost/lojadejogos/">
+    <base href="https://crackgamess.000webhostapp.com/">
+    <!-- <base href="http://localhost/lojadejogos/"> -->
     
     
     <link rel="shortcut icon" href="imagens/logo3.jpeg">
