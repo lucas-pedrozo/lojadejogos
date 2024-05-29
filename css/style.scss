@@ -80,13 +80,13 @@ body {
 }
 // navbar
 .navbar {
-    backdrop-filter: blur(200px);
+    backdrop-filter: blur(20px);
     border-radius: 0 0 20px 20px;
-    z-index: 999 !important;
+    z-index: 999 !important;    
         // navbar menu
         & .navbar-toggler {
         background-color: #00456d  !important;         
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.37);
+        box-shadow: 0 0 5px rgb(0, 0, 0);
             z-index: 99999;
 }      
     // navbar links A
@@ -134,12 +134,13 @@ body {
 
 // footer !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 .footer {
-    background-color: #002227;
-    background-image: linear-gradient(0deg, #001c20 0%, #002d33 80%);
-    border-radius: 10px 10px 0 0 ;
+    // background-color: #002227;
+    // background-image: linear-gradient(0deg, #001c20 0%, #002d33 80%);
+    backdrop-filter: blur(20px);
+    border-radius: 20px 20px 0 0 ;
     box-shadow: 0 0 10px rgb(0, 0, 0); 
     padding: 6px;
-    margin-top: auto;
+    bottom: 0 !important;
         & .text-footer {
             text-align: center;
             font-size: 1.3rem;
@@ -153,6 +154,10 @@ body {
           & a {
             font-size: 24px;
             color: $white;
+            transition: 300ms !important;
+            &:hover {
+                transform: scale(1.04)!important;
+            }
         }
     }
 }
@@ -161,7 +166,7 @@ body {
     display: none; 
     & .carousel-item {
         & img {
-           opacity: 60%;
+           opacity: 80%;
             z-index: -2!important;
             
             
@@ -304,6 +309,9 @@ body {
                         font-weight: 600;
                         font-size: 14px;
                         transition: 300ms !important;
+                            &:hover {
+                                color: $white !important;
+                            }
             }
         }
 

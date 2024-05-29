@@ -23,7 +23,7 @@
     }
 
     body {
-        background: url(..//imagens/Artboard-2.png);
+        background-image: url(../imagens/Artboard-3.png) !important;
         background-repeat: no-repeat;
         font-family: 16px;
         font-family: "Montserrat", Arial, Helvetica, sans-serif !important;
@@ -31,19 +31,19 @@
     }
 
     main {
-        margin: 50px auto;
+        margin: 40px auto;
         width:100%;
     }
     .conteiner {
         width: 95%;
         display: flex;
         justify-content: space-around;
-        margin: auto ;
+        margin: 20px auto ;
         backdrop-filter: blur(100px);
         background-color: rgba(255, 255, 255, 0.007);
         border-radius:20px;
                 & img {
-                    width: 100% !important;
+                    width: 25% !important;
                     display: none;
                     box-sizing: border-box;
                 }   
@@ -102,6 +102,13 @@
                                             }
                                 } 
                 }
+}
+
+            p {
+                text-align: center;
+                font-size: 13px;
+                width: 80%;
+                margin: auto;
             }
 
 @media (min-width: 500px) {
@@ -117,7 +124,7 @@
     .conteiner {
         width: 1000px;
         padding: 50px 60px;
-        margin: 86px auto;
+        margin:40px auto;
         & img {
             width: 30% !important;
             display: block;

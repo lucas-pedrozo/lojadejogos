@@ -59,13 +59,13 @@ body {
 }
 
 .navbar {
-  backdrop-filter: blur(200px);
+  backdrop-filter: blur(20px);
   border-radius: 0 0 20px 20px;
   z-index: 999 !important;
 }
 .navbar .navbar-toggler {
   background-color: #00456d  !important;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.37);
+  box-shadow: 0 0 5px black;
   z-index: 99999;
 }
 .navbar .nav-link {
@@ -103,12 +103,11 @@ body {
 }
 
 .footer {
-  background-color: #002227;
-  background-image: linear-gradient(0deg, #001c20 0%, #002d33 80%);
-  border-radius: 10px 10px 0 0;
+  backdrop-filter: blur(20px);
+  border-radius: 20px 20px 0 0;
   box-shadow: 0 0 10px black;
   padding: 6px;
-  margin-top: auto;
+  bottom: 0 !important;
 }
 .footer .text-footer {
   text-align: center;
@@ -124,13 +123,17 @@ body {
 .footer .links a {
   font-size: 24px;
   color: white;
+  transition: 300ms !important;
+}
+.footer .links a:hover {
+  transform: scale(1.04) !important;
 }
 
 .carrosel-desk {
   display: none;
 }
 .carrosel-desk .carousel-item img {
-  opacity: 60%;
+  opacity: 80%;
   z-index: -2 !important;
 }
 
@@ -244,6 +247,9 @@ body {
   font-weight: 600;
   font-size: 14px;
   transition: 300ms !important;
+}
+.conteiner-global .descricao .dev a:hover {
+  color: white !important;
 }
 .conteiner-global .text-requisito {
   text-align: center;

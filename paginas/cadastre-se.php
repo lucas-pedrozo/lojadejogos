@@ -16,7 +16,7 @@
 <form method="post" action="index.php">
     <div class="form1">
             <label for="text" data-aos="fade-up" data-aos-duration="500">Email:</label>
-            <input type="email" name="nome" id="email" required size="25" data-aos="fade-up" data-aos-duration="500" placeholder="Digite seu Email:">
+            <input type="email" name="nome" id="email" required size="25" data-aos="fade-up" data-aos-duration="500" placeholder="Endereço de  Email:">
     </div>
 </br>
     <div class="form1">
@@ -35,11 +35,12 @@
         </div>
 </br>
     <div class="botao-flex" data-aos="fade-up">
-        <button type="submit" class="botao">Login</button>
+        <button type="submit" class="botao">Confimar</button>
     </div>
  </form>
 </div>
 
 </div>
+<p>As informações usadas para pre encher o formulario de login ou cadastro será usada para para melhorar sua esperiancar do usuario, suas informações seram protegidas em nosso sistema.</p>
 </body>
 </html>

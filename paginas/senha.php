@@ -19,21 +19,20 @@
         <img src="imagens/banner-login.png" data-aos="fade-right" data-aos-duration="400">
 
 <div class="login" data-aos="fade"  data-aos-easing="ease-in-out" >
-<h2 data-aos="fade-up" data-aos-duration="400">Login</h2>
+<h2 data-aos="fade-up" data-aos-duration="400">Nova Senha</h2>
 <form method="post" action="index.php">
     <div class="form1">
-            <label for="text" data-aos="fade-up" data-aos-duration="500">Email:</label>
-            <input type="email" name="nome" id="email" required size="25" title="Digite seu nome Completo" data-aos="fade-up" data-aos-duration="500" placeholder="Endereço de Email:">
+            <label for="text" data-aos="fade-up" data-aos-duration="500">Nova senha:</label>
+            <input type="password" name="Number" id="senha"required size="25" title="Digite seu nome Completo" data-aos="fade-up" data-aos-duration="500" placeholder="Nova senha:">
     </div>
 </br>
     <div class="form1">
-            <label for="text" data-aos="fade-up" data-aos-duration="500">Senha:</label>
-            <input type="password" name="Number" id="senha"required size="25" title="Digite seu nome Completo" data-aos="fade-up" data-aos-duration="500" placeholder="Digite sua senha:">
+            <label for="text" data-aos="fade-up" data-aos-duration="500">Confirme sua nova Senha:</label>
+            <input type="password" name="Number" id="senha"required size="25" title="Digite seu nome Completo" data-aos="fade-up" data-aos-duration="500" placeholder="nova senha:">
     </div>
 </br>
     <div class="botao-flex" data-aos="fade-up">
-    <a href="senha">Esqueceu sua senha?</a>
-        <button type="submit" class="botao">Login</button>
+        <button type="submit" class="botao">Confirmar</button>
     </div>
  </form>
 </div>
