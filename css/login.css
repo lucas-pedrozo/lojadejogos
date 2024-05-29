@@ -9,76 +9,101 @@
 }
 
 body {
-  background-color: #011c1f;
-  background-image: linear-gradient(135deg, #00090f 0%, #001a1f 50%, #00090f 100%);
+  background: url(..//imagens/Artboard-2.png);
+  background-repeat: no-repeat;
   font-family: 16px;
   font-family: "Montserrat", Arial, Helvetica, sans-serif !important;
   color: white !important;
 }
 
-h3 {
-  margin: 0 20px;
+main {
+  margin: 50px auto;
+  width: 100%;
 }
 
-.login {
-  margin: auto;
+.conteiner {
   width: 95%;
-  border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.445);
-  padding: 20px 0;
-  box-shadow: 0 0 10px black;
-  background-color: #003439;
-  background-image: linear-gradient(111deg, #002f33 0%, #003c41 48%, #002f33 100%);
-  margin-top: 80px;
-}
-.login h2 {
-  text-align: center;
-  font-size: 2rem;
-  color: #00F0FF;
-  padding-bottom: 12px;
-}
-.login .form1 {
-  text-align: center;
-  gap: 0 20px;
-}
-.login .form1 p {
-  text-align: center;
-}
-.login .form1 input {
-  padding: 3px 5px;
-  border-radius: 20px;
-  color: black !important;
-  font-weight: bold;
-}
-.login .botao-flex {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  margin: auto;
+  backdrop-filter: blur(100px);
+  background-color: rgba(255, 255, 255, 0.007);
+  border-radius: 20px;
 }
-.login .botao-flex .botao {
-  background-color: #d66f00 !important;
-  background-image: linear-gradient(135deg, #d66f00 0%, #ecb938 100%) !important;
-  color: black;
+.conteiner img {
+  width: 100% !important;
+  display: none;
+  box-sizing: border-box;
+}
+.conteiner .login {
+  padding: 20px;
+  align-content: center;
+}
+.conteiner .login h2 {
+  text-align: center !important;
+  margin-bottom: 30px;
+}
+.conteiner .login .form1 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px 0;
+}
+.conteiner .login .form1 input {
+  padding: 5px 8px;
   border-radius: 20px;
   border: none;
-  font-weight: 600;
-  padding: 5px;
-  transition: 500ms !important;
 }
-.login .botao-flex .botao:hover {
-  transform: scale(1.03) !important;
-  color: white;
+.conteiner .login .botao-flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
 }
-
-.text-login2 {
+.conteiner .login .botao-flex a {
   text-align: center;
-  font: 0.8rem "arial";
-  box-sizing: border-box;
-  padding: 50px 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+.conteiner .login .botao-flex a:hover {
+  color: #ffb52b;
+}
+.conteiner .login .botao-flex .botao {
+  margin: auto;
+  margin-bottom: 20px;
+  width: 100px;
+  border: none;
+  border-radius: 15px;
+  padding: 2px 0;
+  font-weight: 500;
+  background-color: #d66f00;
+  background-image: linear-gradient(135deg, #ca6800 0%, #dfa000 100%);
+  transition: 400ms !important;
+}
+.conteiner .login .botao-flex .botao:hover {
+  transform: scale(1.02) !important;
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 166, 0, 0.575);
 }
 
-@media (min-width: 550px) {
-  .login {
-    width: 500px;
+@media (min-width: 500px) {
+  .conteiner {
+    margin: 200px auto;
+    width: 430px;
+  }
+}
+@media (min-width: 995px) {
+  main {
+    width: 1000px;
+  }
+
+  .conteiner {
+    width: 1000px;
+    padding: 50px 60px;
+    margin: 86px auto;
+  }
+  .conteiner img {
+    width: 30% !important;
+    display: block;
   }
 }
 

@@ -35,8 +35,12 @@
         <a href="https://lucas-pedrozo.github.io/portifolio1.0/">Site do Desenvolvedor</a>
         </div>
     </div>
+    
+    <div class="link"data-aos="fade-up" data-aos-duration="400">
+    <a href="jogo/golden/index.html" class="link-jogue">Jogue Agora</a>
+    </div>
 
-    <h3 class="text-requisito" data-aos="fade-up" data-aos-duration="300">Requisitos</h3>
+    <h3 class="text-requisito" data-aos="fade-right" data-aos-duration="300">Requisitos</h3>
 
     <div class="requisitos-flex">
         <div class="requisitos" data-aos="fade-up" data-aos-duration="400">
@@ -57,14 +61,11 @@
             <p><span>GPU:</span> Nvidia RTX 3050 6 GB VRAM</p>
         </div>
     </div>
-    <h4 class="text-requisito" data-aos="fade-up" data-aos-duration="300">
-    Link abaixo
-    </h4>
+     <!-- <h4 class="text-requisito" data-aos="fade-up" data-aos-duration="300">Link abaixo </h4> -->
 
-    <div class="link"data-aos="fade-up" data-aos-duration="400">
-    <a href="jogo/golden/index.html" class="link-jogue">Jogue Agora</a>
-    </div>
-    <div class="accordion " id="accordionPanelsStayOpenExample" data-bs-theme="dark">
+    <!-- <div class="link"data-aos="fade-up" data-aos-duration="400"> <a href="jogo/catgame/index.html" class="link-jogue">Jogue Agora</a> </div> -->
+
+    <div class="accordion " id="accordionPanelsStayOpenExample" data-bs-theme="dark" data-aos="fade-up" data-aos-duration="400">
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
@@ -97,7 +98,7 @@
     </h2>
     <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
       <div class="accordion-body">
-      <strong>Bom</strong> Jogo muito educativo e didático, me surpreendeu bastante, parabéns aos criadores!!!
+      <strong>Bom</strong> Bom, jogo muito imersivo, te faz ficar horas jogando pra passar uma vez na cagada, embora seja frustante nao ter um sistema de savepoint para facilitar passar das fases.
       </div>
     </div>
   </div>

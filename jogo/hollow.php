@@ -38,8 +38,14 @@
         <a href="https://store.steampowered.com/app/367520/Hollow_Knight/">Site do Desenvolvedor</a>
         </div>
     </div>
+     <!-- <h5 class="text-requisito" data-aos="fade-up" data-aos-duration="300"></h5>  -->
 
-    <h3 class="text-requisito" data-aos="fade-up" data-aos-duration="300">Requisitos</h3>
+    <div class="link"data-aos="fade-up" data-aos-duration="400">
+    <a href="jogo/catgame/index.html" class="link-jogue">Jogue Agora</a>
+    </div>
+
+
+    <h4 class="text-requisito" data-aos="fade-right" data-aos-duration="300">Requisitos</h4>
 
     <div class="requisitos-flex">
         <div class="requisitos" data-aos="fade-up" data-aos-duration="400">
@@ -62,13 +68,9 @@
             <p><span>DirectX:</span> Versão 11</p>
         </div>
     </div>
-    <h4 class="text-requisito" data-aos="fade-up" data-aos-duration="300">
-    Link abaixo
-    </h4>
+    <!-- <h4 class="text-requisito" data-aos="fade-up" data-aos-duration="300">Link abaixo </h4> -->
 
-    <div class="link"data-aos="fade-up" data-aos-duration="400">
-    <a href="jogo/catgame/index.html" class="link-jogue">Jogue Agora</a>
-    </div>
+    <!-- <div class="link"data-aos="fade-up" data-aos-duration="400"> <a href="jogo/catgame/index.html" class="link-jogue">Jogue Agora</a> </div> -->
 
     <div class="accordion " id="accordionPanelsStayOpenExample" data-bs-theme="dark" data-aos="fade-up">
   <div class="accordion-item">

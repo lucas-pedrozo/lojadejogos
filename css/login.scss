@@ -1,103 +1,126 @@
-/* corres */
-$color-1:#011c1f;
-$color-2:#0B434A;
-$color-3:#00F0FF;
-$color-6:#cec700;
-$color-6-clier:#5a573e;
-$color-4:white;
-$color-5:rgb(0, 160, 160);
-$font-1:"Montserrat";
+    /* corres */
+    $color-1:#011c1f;
+    $color-2:#0B434A;
+    $color-3:#00F0FF;
+    $color-6:#cec700;
+    $color-6-clier:#5a573e;
+    $color-4:white;
+    $color-5:rgb(0, 160, 160);
+    $font-1:"Montserrat";
 
-// color BG
-$BG-1:#011c1f;
-$BG-2: linear-gradient(135deg, #00090f 0%, #001a1f 50%, #00090f 100%);
+    // color BG
+    $BG-1:#011c1f;
+    $BG-2: linear-gradient(135deg, #00090f 0%, #001a1f 50%, #00090f 100%);
 
 
-* {
-    margin:0;
-    padding: 0; 
-}
- .margin0 {
-    box-sizing: border-box;
-
- }
-
-body {
-    background-color: $BG-1;
-    background-image: $BG-2;
-    font-family: 16px;
-    font-family: "Montserrat", Arial, Helvetica, sans-serif !important;
-    color: $color-4 !important;
-}
-h3 {
-    margin:0 20px;
-}
-
-.login {
-    margin: auto;
-    width: 95%;
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.445);
-    padding: 20px 0;
-    box-shadow: 0 0 10px black;
-    //box-shadow: 0 0 20px rgba(0, 238, 255, 0.199);
-    background-color: #003439;
-    background-image: linear-gradient(111deg, #002f33 0%, #003c41 48%, #002f33 100%);
-    margin-top: 80px;
-
-    
-
-    h2 {
-        text-align: center;
-        font-size: 2rem;
-        color: $color-3;
-       padding-bottom: 12px;
+    * {
+        margin:0;
+        padding: 0; 
     }
-    .form1{
-        text-align: center; 
-        gap: 0 20px;
-            p {
-                text-align: center;
-            }
-                input {
-                    padding: 3px 5px;
-                    border-radius: 20px;
-                    color: black!important;
-                    font-weight: bold;
+    .margin0 {
+        box-sizing: border-box;
+
+    }
+
+    body {
+        background: url(..//imagens/Artboard-2.png);
+        background-repeat: no-repeat;
+        font-family: 16px;
+        font-family: "Montserrat", Arial, Helvetica, sans-serif !important;
+        color: $color-4 !important;
+    }
+
+    main {
+        margin: 50px auto;
+        width:100%;
+    }
+    .conteiner {
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+        margin: auto ;
+        backdrop-filter: blur(100px);
+        background-color: rgba(255, 255, 255, 0.007);
+        border-radius:20px;
+                & img {
+                    width: 100% !important;
+                    display: none;
+                    box-sizing: border-box;
+                }   
+
+                & .login {
+                    padding: 20px;
+                    align-content: center;
+
+                            //ajuste do texto h2 
+                                & h2  {
+                                    text-align: center !important;
+                                    margin-bottom: 30px;
+                                }
+                        // ajuste do fomulario 
+                                & .form1 {
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 8px 0;
+                                        & input {
+                                            padding: 5px 8px;
+                                            border-radius: 20px;
+                                            border: none;
+                                        }
+                                }
+                                // botao  
+                                & .botao-flex {
+                                    display: flex;
+                                    justify-content: center;
+                                    flex-direction: column-reverse;
+                                        & a {
+                                            text-align: center;
+                                            text-decoration: none;
+                                            color: white;
+                                            font-size: 14px;
+                                                &:hover {
+                                                    color: rgb(255, 181, 43);
+                                                }
+                                        }
+                                            & .botao {
+                                                margin: auto;
+                                                margin-bottom: 20px;
+                                                width: 100px;
+                                                border: none;
+                                                border-radius: 15px;
+                                                padding: 2px 0;
+                                                    font-weight: 500;
+                                                background-color: #d66f00;
+                                                background-image: linear-gradient(135deg, #ca6800 0%, #dfa000 100%); 
+                                                transition: 400ms!important;
+                                                        // animação hover
+                                                        &:hover {
+                                                            transform: scale(1.02) !important;
+                                                            color: $color-4;
+                                                            box-shadow:0 0 10px rgba(255, 166, 0, 0.575);
+                                                        }
+                                            }
+                                } 
                 }
+            }
+
+@media (min-width: 500px) {
+    .conteiner {
+       margin: 200px auto;
+            width: 430px;
     }
-   .botao-flex {
-    display: flex;
-    justify-content: center;
-        .botao { 
-            background-color: #d66f00 !important;
-            background-image: linear-gradient(135deg, #d66f00 0%, #ecb938 100%) !important;
-            color: black;
-            border-radius: 20px;
-            border: none;
-            font-weight: 600; 
-            padding: 5px;
-            // tempo da animação 
-            transition: 500ms !important;
-                    &:hover  {   
-                        transform: scale(1.03) !important;
-                        color: $color-4;
-                    }
-        }
-   }
 }
-
-
-// informações sobre o login
-.text-login2 {
-    text-align: center;
-    font:0.8rem  "arial" ;
-    box-sizing: border-box;
-    padding:50px 10px;
-}
-
-@media (min-width:550px) {
-    .login {
-        width: 500px;
+@media (min-width: 995px)  {
+    main {
+        width: 1000px;
+    }
+    .conteiner {
+        width: 1000px;
+        padding: 50px 60px;
+        margin: 86px auto;
+        & img {
+            width: 30% !important;
+            display: block;
+        }   
     }
 }

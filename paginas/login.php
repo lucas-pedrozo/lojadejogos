@@ -14,34 +14,30 @@
 </head>
 <body>
 
-    <div class="login" data-aos="fade"  data-aos-easing="ease-in-out" >
+<div class="conteiner">
 
-        <h2 data-aos="fade-up">Login</h2>
+        <img src="imagens/banner-login.png" data-aos="fade-right" data-aos-duration="400">
 
-        <form method="post" action="index.php">
-            <div class="form1">
-                <p data-aos="fade-up" data-aos-duration="500">Digite Seu Email:</p>
-                    <input type="email" name="nome" id="email" required size="25" title="Digite seu nome Completo" data-aos="fade-up" data-aos-duration="500">
-            </div>
-        </br>
-            <div class="form1">
-                <p data-aos="fade-up" data-aos-duration="500" class="margin0">Digite Sua Senha: </p>
-                    <input type="password" name="Number" id="senha"required size="25" title="Digite seu nome Completo" data-aos="fade-up" data-aos-duration="500">
-            </div>
-        </br>
-            <div class="botao-flex" data-aos="fade-up">
-                <button type="submit" class="botao">Confirmar Login</button>
-            </div>
-         </form>
+<div class="login" data-aos="fade"  data-aos-easing="ease-in-out" >
+<h2 data-aos="fade-up" data-aos-duration="400">Login</h2>
+<form method="post" action="index.php">
+    <div class="form1">
+            <label for="text" data-aos="fade-up" data-aos-duration="500">Email:</label>
+            <input type="email" name="nome" id="email" required size="25" title="Digite seu nome Completo" data-aos="fade-up" data-aos-duration="500" placeholder="Digite seu Email:">
     </div>
+</br>
+    <div class="form1">
+            <label for="text" data-aos="fade-up" data-aos-duration="500">Senha:</label>
+            <input type="password" name="Number" id="senha"required size="25" title="Digite seu nome Completo" data-aos="fade-up" data-aos-duration="500" placeholder="Digite sua senha:">
+    </div>
+</br>
+    <div class="botao-flex" data-aos="fade-up">
+    <a href="#">Esqueceu sua senha?</a>
+        <button type="submit" class="botao">Login</button>
+    </div>
+ </form>
+</div>
 
-    <p class="text-login2">
-            Atenção suas informações serão
-             utilizadas para atribuir uma
-              experiencia diacordo com sua
-               caracteristica de uso, seja Bem
-                vindo ao nosso site de jogos Online.
-        </p>
-
+</div>
 </body>
 </html>

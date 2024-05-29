@@ -39,7 +39,7 @@ body {
   color: aqua;
 }
 #exampleModal .modal-content .btn-close {
-  background-color: white;
+  background-color: red;
 }
 #exampleModal .modal-content .modal-footer .btn {
   background-color: #d66f00;
@@ -48,7 +48,7 @@ body {
   border: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.753);
   color: black;
-  font-weight: 600;
+  font-weight: 500;
   margin-left: 10px;
   transition: 300ms !important;
 }
@@ -108,6 +108,7 @@ body {
   border-radius: 10px 10px 0 0;
   box-shadow: 0 0 10px black;
   padding: 6px;
+  margin-top: auto;
 }
 .footer .text-footer {
   text-align: center;
@@ -137,7 +138,7 @@ body {
   display: block;
 }
 .carrose-mobile .carousel-item img {
-  opacity: 60%;
+  opacity: 50%;
   z-index: -2 !important;
 }
 
@@ -156,7 +157,7 @@ body {
 }
 .conteiner-global .lancamento {
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: aqua;
   margin: 30px 0;
   box-sizing: border-box;
@@ -189,7 +190,7 @@ body {
   color: white;
 }
 .conteiner-global .card-flex .card-info .card-descricao span P {
-  background-color: #005f1d;
+  background-color: #004615;
   border-radius: 2px;
   padding: 2px;
   color: lime;
@@ -284,17 +285,18 @@ body {
   display: flex;
   margin-bottom: 30px;
   justify-content: center;
+  margin: 40px 0 60px 0;
 }
 .conteiner-global .link .link-jogue {
   background-color: #d66f00;
   background-image: linear-gradient(135deg, #ff9100 0%, #e7b716 100%);
   border-radius: 20px;
-  padding: 5px 8px;
+  padding: 6px 10px;
   text-decoration: none;
   color: black;
   font-weight: 600;
   transition: 300ms !important;
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
 }
 .conteiner-global .link .link-jogue:hover {
@@ -304,6 +306,7 @@ body {
 }
 .conteiner-global .accordion {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.664);
+  margin-top: 50px;
 }
 
 ::-webkit-scrollbar {
@@ -366,9 +369,23 @@ body {
   }
   .conteiner-global .descricao {
     width: 50%;
+    transition: 400ms !important;
+  }
+  .conteiner-global .descricao:hover {
+    transform: scale(1.01) !important;
   }
   .conteiner-global .requisitos-flex .requisitos {
     width: 40%;
+    transition: 400ms !important;
+  }
+  .conteiner-global .requisitos-flex .requisitos:hover {
+    transform: scale(1.01) !important;
+  }
+  .conteiner-global .link {
+    margin: 40px 0 60px 0;
+  }
+  .conteiner-global .link .link-jogue {
+    font-size: 20px;
   }
 }
 

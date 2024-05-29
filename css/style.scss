@@ -54,7 +54,7 @@ body {
                                     //border-radius: 154px;
                                 }
                 & .btn-close {
-                    background-color: white;
+                    background-color: rgb(255, 0, 0);
                 }
             //botões
             & .modal-footer {
@@ -65,7 +65,7 @@ body {
                         border: none;
                         box-shadow: 0 0 10px rgba(0, 0, 0, 0.753);
                         color: $black;
-                        font-weight: 600;
+                        font-weight: 500;
                         // ajuste
                         margin-left: 10px;
                         transition: 300ms !important;
@@ -139,6 +139,7 @@ body {
     border-radius: 10px 10px 0 0 ;
     box-shadow: 0 0 10px rgb(0, 0, 0); 
     padding: 6px;
+    margin-top: auto;
         & .text-footer {
             text-align: center;
             font-size: 1.3rem;
@@ -172,7 +173,7 @@ body {
     display: block;
     & .carousel-item {
         & img {
-           opacity: 60%;
+           opacity: 50%;
             z-index: -2!important;
             
             
@@ -199,7 +200,7 @@ body {
 // lançamentos 
 & .lancamento {
             text-align: center;
-            font-size: 1.6rem;
+            font-size: 1.4rem;
             color: $aqua;
             margin: 30px 0;
             box-sizing: border-box;
@@ -237,7 +238,7 @@ body {
                                 // preço do jogo  
                                     & span {
                                         & P {
-                                            background-color: #005f1d;
+                                            background-color: #004615;
                                             border-radius: 2px;
                                             padding: 2px;
                                             color: rgb(0, 255, 0);
@@ -324,7 +325,7 @@ body {
                         & .requisitos {
                             background-color: #001025;
                             width: 95%;
-                            border-radius: 20px;
+                            border-radius:20px;
                             box-shadow: 0 0 10px $black;
                             margin: 10px auto;
                             padding: 10px;
@@ -354,16 +355,17 @@ body {
                 display: flex;
                 margin-bottom: 30px;
                 justify-content: center;
+                margin: 40px 0 60px 0;
                     & .link-jogue {
                         background-color: #d66f00;
                         background-image: linear-gradient(135deg, #ff9100 0%, #e7b716 100%); 
                         border-radius: 20px;
-                        padding: 5px 8px;
+                        padding: 6px 10px;
                         text-decoration: none;
                         color: $black;
                         font-weight: 600;
                         transition: 300ms !important;
-                        font-size: 15px;
+                        font-size: 18px;
                         text-align: center;
                             &:hover {
                                 transform: scale(1.05) !important;
@@ -375,6 +377,7 @@ body {
         // comentario
         & .accordion {
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.664);
+            margin-top: 50px;
         }
 }
 // final pagina dos jogos !!!!!!!!!!!!!!!!!!!!!!!!
@@ -457,11 +460,31 @@ body {
                     }
     & .descricao {
         width: 50%;
+        transition: 400ms !important;
+            // hover do conteiner 
+                &:hover {
+                    transform: scale(1.01) !important;
+                    //box-shadow: 0 0 10px rgba(12, 30, 90, 0.466);
+                }
     }
      & .requisitos-flex  {
         & .requisitos {
             width: 40%;
+            transition: 400ms !important;
+                // hover do conteiner
+                    &:hover {
+                        transform: scale(1.01) !important;
+                        //box-shadow: 0 0 10px rgba(12, 30, 90, 0.466);
+                    }
         }
      }
+
+     & .link {
+        margin: 40px 0 60px 0;
+            & .link-jogue {
+        
+                font-size: 20px;
+            }
+       }
 }
 }

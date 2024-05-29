@@ -56,8 +56,8 @@
                 <li><a class="dropdown-item" href="jogo/Golden-1">Em Busca da Golden Apple</a></li>
                 <li><a class="dropdown-item" href="jogo/hollow">Hollow Knight</a></li>
                 <li><a class="dropdown-item" href="#">Horizon Zero Down</a></li>
-                <li><a class="dropdown-item" href="#">Ghost of Tsushima</a></li>
-                <li><a class="dropdown-item" href="#">Ghost of Tsushima</a></li>
+                <li><a class="dropdown-item" href="#">Minecraft Dungeons</a></li>
+                <li><a class="dropdown-item" href="#">Islets</a></li>
                 <li><a class="dropdown-item" href="#">Ghost of Tsushima</a></li>
                 </ul>
             </li>
@@ -78,34 +78,27 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Fale Com Nosco</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Fale Conosco</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <form>
           <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">Digite Seu Email:</label>
-            <input type="email" name="nome" id="email" class="form-control" >
-                        <label for="recipient-name" class="col-form-label">Digite Seu Nome:</label>
-                        <input type="text" class="form-control">
+            <label for="recipient-name" class="col-form-label">Email:</label>
+            <input type="email" name="nome" id="email" class="form-control" placeholder="Digite seu Email">    
           </div>
           <div class="mb-3">
-            <label for="message-text" class="col-form-label">Digite sua mensagem:</label>
-            <textarea class="form-control" id="message-text" rows="6"></textarea>
+            <label for="message-text" class="col-form-label">Mensagem:</label>
+            <textarea class="form-control" id="message-text" rows="6" placeholder="Digite sua mensagem"></textarea>
           </div>
         </form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn" data-bs-dismiss="modal">Fechar</button>
-        <button type="button" class="btn" data-bs-dismiss="modal">Enviar</button>
-
-            
-
-
+        <button type="button" class="btn" data-bs-dismiss="modal" >Enviar</button>
       </div>
     </div>
   </div>
-
 </div>
 
 </header>
