@@ -16,12 +16,12 @@
 <form method="post" action="index.php">
     <div class="form1">
             <label for="text" data-aos="fade-up" data-aos-duration="500">Email:</label>
-            <input type="email" name="nome" id="email" required size="25" data-aos="fade-up" data-aos-duration="500" placeholder="Endereço de  Email:">
+            <input type="email" name="email" id="email" required size="25" data-aos="fade-up" data-aos-duration="500" placeholder="Endereço de Email:">
     </div>
 </br>
     <div class="form1">
-            <label for="text" data-aos="fade-up" data-aos-duration="500">Nome completo</label>
-            <input type="text" name="nome" id="text" required size="25"  data-aos="fade-up" data-aos-duration="500" placeholder="Digite seu nome">
+            <label for="text" data-aos="fade-up" data-aos-duration="500">Nome completo:</label>
+            <input type="text" name="nome" id="nome" required size="25" data-aos="fade-up" data-aos-duration="500" placeholder="Digite seu nome:">
     </div>
 </br>
     <div class="form1">
@@ -31,7 +31,7 @@
 </br>
     <div class="form1">
                 <label for="text" data-aos="fade-up" data-aos-duration="500">Confirme sua Senha:</label>
-                <input type="password" name="Number" id="senha"required size="25" data-aos="fade-up" data-aos-duration="500" placeholder="Digite novamente ">
+                <input type="password" name="Number" id="senha"required size="25" data-aos="fade-up" data-aos-duration="500" placeholder="Digite novamente:">
         </div>
 </br>
     <div class="botao-flex" data-aos="fade-up">

@@ -4,13 +4,13 @@
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-aos="fade" data-aos-duration="500">
   <div class="carousel-inner">
     <div class="carousel-item active">
-    <img src="game/hollow-banner.png" class="d-block w-100" alt="hollow">
+    <img src="game/hollow/hollow-banner.png" class="d-block w-100" alt="hollow">
     </div>
     <div class="carousel-item">
-      <img src="game/hollow-1.png" class="d-block w-100" alt="hollow">
+      <img src="game/hollow/hollow-1.png" class="d-block w-100" alt="hollow">
     </div>
     <div class="carousel-item">
-      <img src="game/hollow-2.png" class="d-block w-100" alt="hollow">
+      <img src="game/hollow/hollow-2.png" class="d-block w-100" alt="hollow">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -35,10 +35,9 @@
         <p><span>Desenvolvedor:</span> Team Cherry</p>
         <p><span>Data de Lançamento:</span> 24/fev./2017</p>
         <div class="dev">
-        <a href="https://store.steampowered.com/app/367520/Hollow_Knight/">Site do Desenvolvedor</a>
+        <a href="https://store.steampowered.com/developer/teamcherry">Site do Desenvolvedor</a>
         </div>
     </div>
-     <!-- <h5 class="text-requisito" data-aos="fade-up" data-aos-duration="300"></h5>  -->
 
     <div class="link"data-aos="fade-up" data-aos-duration="400">
     <a href="jogo/catgame/index.html" class="link-jogue">Jogue Agora</a>
@@ -68,9 +67,6 @@
             <p><span>DirectX:</span> Versão 11</p>
         </div>
     </div>
-    <!-- <h4 class="text-requisito" data-aos="fade-up" data-aos-duration="300">Link abaixo </h4> -->
-
-    <!-- <div class="link"data-aos="fade-up" data-aos-duration="400"> <a href="jogo/catgame/index.html" class="link-jogue">Jogue Agora</a> </div> -->
 
     <div class="accordion " id="accordionPanelsStayOpenExample" data-bs-theme="dark" data-aos="fade-up">
   <div class="accordion-item">

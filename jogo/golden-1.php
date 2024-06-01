@@ -7,10 +7,10 @@
       <img src="imagens/golden-1.png" class="d-block w-100" alt="golden">
     </div>
     <div class="carousel-item">
-      <img src="game/golden-1.png" class="d-block w-100" alt="golden">
+      <img src="game/golden/golden-1.png" class="d-block w-100" alt="golden">
     </div>
     <div class="carousel-item">
-      <img src="game/golden-2.png" class="d-block w-100" alt="golden">
+      <img src="game/golden/golden-2.png" class="d-block w-100" alt="golden">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -61,9 +61,6 @@
             <p><span>GPU:</span> Nvidia RTX 3050 6 GB VRAM</p>
         </div>
     </div>
-     <!-- <h4 class="text-requisito" data-aos="fade-up" data-aos-duration="300">Link abaixo </h4> -->
-
-    <!-- <div class="link"data-aos="fade-up" data-aos-duration="400"> <a href="jogo/catgame/index.html" class="link-jogue">Jogue Agora</a> </div> -->
 
     <div class="accordion " id="accordionPanelsStayOpenExample" data-bs-theme="dark" data-aos="fade-up" data-aos-duration="400">
   <div class="accordion-item">
