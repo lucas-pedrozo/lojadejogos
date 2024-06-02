@@ -6,8 +6,9 @@
         $game[1] =  array(
             "id"=> 1,
             "banner"=> "imagens/golden-3.png",
+            "alt"=> "golden apple",
             "nome"=> "Golden Apple",
-            "preco"=> "26,90",
+            "preco"=> "R$ 26,90",
 
             "carousel"=> "null",
             "title"=> "Descrição",
@@ -41,9 +42,10 @@
 
         $game[2] =  array(
             "id"=> 2,
-            "banner"=> "imagens/golden-3.png",
+            "banner"=> "imagens/cat-3.jpg",
+            "alt"=> "cat",
             "nome"=> "Cat Game",
-            "preco"=> "37,90",
+            "preco"=> "R$ 37,90",
 
             "carousel"=> "null",
             "title"=> "Descrição",
@@ -77,9 +79,10 @@
 
         $game[3] = array(
             "id"=> 3,
-            "banner"=> "imagens/golden-3.png",
+            "banner"=> "imagens/the-bird-3.jpg",
+            "alt"=> "the bird",
             "nome"=> "The Bird Game",
-            "preco"=> "23,89",
+            "preco"=> "R$ 23,89",
 
             "carousel"=> "null",
             "title"=> "Descrição",
@@ -112,5 +115,5 @@
         );
     
         echo json_encode($game);
-
+        
 ?>

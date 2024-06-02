@@ -72,21 +72,30 @@
   <!-- cards de jogos -->
   <div class="card-flex">
 
-    <div class="card-info" data-aos="fade-up" data-aos-duration="400">
-      <!-- imagens do card -->
-      <a href="jogo/golden-1"> <img src="imagens/golden-3.png" alt="ghost"></a>
-      <div class="card-descricao">
-        <p>Golden Apple</p>
-        <span> <p>R$ 29,00</p> </span>
-      </div>
-    </div>
-
-    <div class="card-info">
+   
       <?php 
-      
-      ?>
-    </div>
+        $dadosApi = file_get_contents("http://localhost/lojadejogos/api/jogo.php");
+        $dadosApi = json_decode($dadosApi);
 
+        foreach($dadosApi as $dados) {
+          ?>
+          <div class="card-info" data-aos="fade-up" data-aos-duration="400">
+            <a href="jogo/jogo"><img src="<?php echo $dados->banner?>" alt="<?php echo $dados->alt?>"></a>
+            <div class="card-descricao">
+            <p>
+              <?php echo $dados->nome ?>
+            </p>
+            <span>
+              <p><?php echo $dados->preco ?></p>
+            </span>
+            </div>
+          </div>
+          <?php
+        };
+
+      ?>
+     
+     
   </div>
 
     <img src="imagens/horizon-2.png" alt="minecraft Dungeons" class="banner" data-aos="fade-up" data-aos-duration="400">
@@ -101,7 +110,7 @@
       <a href="jogo/ghost"> <img src="imagens/ghost-3.png" alt="ghost"></a>
       <div class="card-descricao">
         <p>Ghost of Tsushima</p>
-        <span> <p>R$ 200,99</p> </span>
+        <span> <p>R$ 249,90</p> </span>
       </div>
     </div>
 
@@ -120,7 +129,7 @@
       <div class="card-descricao">
         <p>Horizon Zero Dows</p>
         <span>
-          <p>R$ 149,00</p>
+          <p>R$ 199,90</p>
         </span>
       </div>
     </div>

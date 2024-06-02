@@ -405,7 +405,10 @@ body {
     }
 }
 @media (min-width:700px) {
-    
+    .conteiner-global {
+        width: 95%;
+        margin: auto;
+    }
     .carrosel-desk {
         display: block;
     }
@@ -459,9 +462,6 @@ body {
 
     // pagina de jogos
                     & .carousel-item {
-                            & video {
-                                border-radius: 20px;
-                            }
                         & img {
                             border-radius: 20px;
                         } 
@@ -490,7 +490,6 @@ body {
      & .link {
         margin: 40px 0 60px 0;
             & .link-jogue {
-        
                 font-size: 20px;
             }
        }

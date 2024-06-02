@@ -329,6 +329,11 @@ body {
   }
 }
 @media (min-width: 700px) {
+  .conteiner-global {
+    width: 95%;
+    margin: auto;
+  }
+
   .carrosel-desk {
     display: block;
   }
@@ -366,9 +371,6 @@ body {
   .conteiner-global .card-flex .card-info:hover {
     transform: scale(1.02) !important;
     box-shadow: 0 0 10px #002657;
-  }
-  .conteiner-global .carousel-item video {
-    border-radius: 20px;
   }
   .conteiner-global .carousel-item img {
     border-radius: 20px;

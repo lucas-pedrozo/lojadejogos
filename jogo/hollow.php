@@ -40,7 +40,7 @@
     </div>
 
     <div class="link"data-aos="fade-up" data-aos-duration="400">
-    <a href="jogo/catgame/index.html" class="link-jogue">Jogue Agora</a>
+    <a href="jogo/the-bird/index.html" class="link-jogue">Jogue Agora</a>
     </div>
 
 
@@ -53,7 +53,7 @@
             <p><span>CPU:</span> Intel Core 2 Duo E5200</p>
             <p><span>Memoria:</span> 4 GB de Ram</p>
             <p><span>Armazenamento:</span> 10 GB Disponivel</p>
-            <p><span>GPU:</span> GeForce  9800GTX+ 1 GB de Vram</p>
+            <p><span>GPU:</span> GeForce  9800GTX 1 GB de Vram</p>
             <p><span>DirectX:</span> Versão 10</p>
         </div>
 
@@ -63,7 +63,7 @@
             <p><span>CPU:</span> Intel Core I5 6600K</p>
             <p><span>Memoria:</span> 8 GB DE RAM</p>
             <p><span>Armazenamento:</span> 10 GB Disponivel</p>
-            <p><span>GPU:</span> GeForce GTX 560</p>
+            <p><span>GPU:</span> GeForce GTX 560 1 GB Vram</p>
             <p><span>DirectX:</span> Versão 11</p>
         </div>
     </div>
