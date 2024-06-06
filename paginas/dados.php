@@ -13,14 +13,20 @@
   <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-aos="fade"
     data-aos-duration="500">
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="<?php echo $dados->carousel1 ?>" class="d-block w-100" alt="jogo">
+      <div class="carousel-item active" data-bs-interval="5400">
+        <video src="<?php echo $dados->carousel1 ?>" class="d-block w-100" alt="jogo"
+        autoplay
+        loop
+        muted></video>
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item" data-bs-interval="4000">
         <img src="<?php echo $dados->carousel2 ?>" class="d-block w-100" alt="jogo">
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item" data-bs-interval="4000">
         <img src="<?php echo $dados->carousel3 ?>" class="d-block w-100" alt="jogo">
+      </div>
+      <div class="carousel-item"  data-bs-interval="4000">
+        <img src="<?php echo $dados->carousel4 ?>" class="d-block w-100" alt="jogo">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"

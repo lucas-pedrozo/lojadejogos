@@ -11,9 +11,10 @@ $game[1] = array(
     "preco" => "R$ 17,90",
     "link" => "dados",
 
-    "carousel1" => "http://localhost/lojadejogos/imagens/golden-1.jpg",
-    "carousel2" => "http://localhost/lojadejogos/game/golden/golden-1.png",
-    "carousel3" => "http://localhost/lojadejogos/game/golden/golden-2.png",
+    "carousel1" => "http://localhost/lojadejogos/videos/banner-anim.webm",
+    "carousel2" => "http://localhost/lojadejogos/imagens/golden-1.jpg",
+    "carousel3" => "http://localhost/lojadejogos/game/golden/golden-1.png",
+    "carousel4" => "http://localhost/lojadejogos/game/golden/golden-2.png",
 
     "title" => "Descrição",
     "Descricao" => "Esse é um jogo de aventura e desafios, nesse jogo seu objetivo é chegar até o final da caverna e coletar uma Maça dourada que tem o poder da imortalidade, boa sorte...",
@@ -49,9 +50,10 @@ $game[2] = array(
     "preco" => "R$ 27,90",
     "link" => "dados",
 
-    "carousel1" => "http://localhost/lojadejogos/imagens/cat-1.jpg",
-    "carousel2" => "http://localhost/lojadejogos/game/cat/cat-1.jpg",
-    "carousel3" => "http://localhost/lojadejogos/game/cat/cat-2.jpg",
+    "carousel1" => "http://localhost/lojadejogos/videos/banner-anim.webm",
+    "carousel2" => "http://localhost/lojadejogos/imagens/cat-1.jpg",
+    "carousel3" => "http://localhost/lojadejogos/game/cat/cat-1.jpg",
+    "carousel4" => "http://localhost/lojadejogos/game/cat/cat-2.jpg",
 
     "title" => "Descrição",
     "Descricao" => "Esse é um jogos de desafios e corrida contra a morte chegue primero que seu oponetes e vença a corrida, mas tome cuidado tem armadilhas perigosas durante o caminho.",
@@ -92,6 +94,7 @@ $game[3] = array(
     "carousel1" => "http://localhost/lojadejogos/imagens/the-bird-1.jpg",
     "carousel2" => "http://localhost/lojadejogos/imagens/the-bird-1.jpg",
     "carousel3" => "http://localhost/lojadejogos/imagens/the-bird-1.jpg",
+    "carousel4" => "http://localhost/lojadejogos/imagens/the-bird-1.jpg",
 
 
 

@@ -376,6 +376,9 @@ body {
   .conteiner-global .carousel-item img {
     border-radius: 20px;
   }
+  .conteiner-global .carousel-item video {
+    border-radius: 20px;
+  }
   .conteiner-global .descricao {
     width: 50%;
     transition: 400ms !important;

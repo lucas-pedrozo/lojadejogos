@@ -48,14 +48,14 @@
   <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <a href="jogo/ghost"><img src="imagens/ghost-1.png" class="d-block w-100" alt="..."></a>
+        <a href="jogo/ghost"><img src="imagens/ghost-1.jpg" class="d-block w-100" alt="..."></a>
       </div>
       <div class="carousel-item">
-        <a href="jogo/hollow"> <img src="imagens/hollow-1.png" class="d-block w-100" alt="..."></a>
+        <a href="jogo/hollow"> <img src="imagens/hollow-1.jpg" class="d-block w-100" alt="..."></a>
       </div>
       <div class="carousel-item">
         <a href="jogo/horizon
-      "><img src="imagens/horizon-1.png" class="d-block w-100" alt="..."></a>
+      "><img src="imagens/horizon-1.jpg" class="d-block w-100" alt="..."></a>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"

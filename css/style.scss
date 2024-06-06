@@ -206,8 +206,6 @@ body {
         & img {
             opacity: 50%;
             z-index: -2 !important;
-
-
         }
     }
 
@@ -305,6 +303,7 @@ body {
     // carrosel 
     & .carousel {
         margin-top: 60px;
+        
     }
 
     //descrição do jogo
@@ -534,6 +533,9 @@ body {
         // pagina de jogos
         & .carousel-item {
             & img {
+                border-radius: 20px;
+            }
+            & video {
                 border-radius: 20px;
             }
         }
