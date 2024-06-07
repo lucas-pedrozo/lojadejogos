@@ -13,20 +13,14 @@
   <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-aos="fade"
     data-aos-duration="500">
     <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="5400">
-        <video src="<?php echo $dados->carousel1 ?>" class="d-block w-100" alt="jogo"
-        autoplay
-        loop
-        muted></video>
+      <div class="carousel-item active"  data-bs-interval="4000">
+        <img src="<?php echo $dados->carousel1 ?>" class="d-block w-100" alt="jogo">
       </div>
       <div class="carousel-item" data-bs-interval="4000">
         <img src="<?php echo $dados->carousel2 ?>" class="d-block w-100" alt="jogo">
       </div>
-      <div class="carousel-item" data-bs-interval="4000">
-        <img src="<?php echo $dados->carousel3 ?>" class="d-block w-100" alt="jogo">
-      </div>
       <div class="carousel-item"  data-bs-interval="4000">
-        <img src="<?php echo $dados->carousel4 ?>" class="d-block w-100" alt="jogo">
+        <img src="<?php echo $dados->carousel3 ?>" class="d-block w-100" alt="jogo">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
@@ -46,6 +40,8 @@
     <h4> <?php echo $dados->title ?> </h4>
 
     <p class="historia"> <?php echo $dados->Descricao ?> </p>
+
+    <p><span>Avaliação:</span> <?php echo $dados->classificacao ?> </p>
 
     <p><span>Desenvolvedor:</span> <?php echo $dados->criador ?> </p>
 
@@ -82,6 +78,17 @@
       <p><span>DirectX:</span> <?php echo $dados->info10 ?></p>
     </div>
   </div>
+
+
+  <h4 class="text-requisito" data-aos="fade-right" data-aos-duration="300">Trailler</h4>
+
+    <div class="traller-block" data-aos="fade-up" data-aos-duration="400">
+    <video src="<?php echo $dados-> trailler?>" class="traller"
+    controls
+    muted 
+    poster="<?php echo $dados-> poster?>"></video>
+    </div>
+    <h5 class="text-requisito" data-aos="fade-right" data-aos-duration="300">Comentarios</h5>
   <!-- comentario -->
   <div class="accordion " id="accordionPanelsStayOpenExample" data-bs-theme="dark" data-aos="fade-up"
     data-aos-duration="400">
@@ -121,7 +128,7 @@
       </h2>
       <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
         <div class="accordion-body">
-          <strong>Bom</strong> <?php echo $dados->comentario3 ?>
+          <strong>ruim</strong> <?php echo $dados->comentario3 ?>
         </div>
       </div>
     </div>

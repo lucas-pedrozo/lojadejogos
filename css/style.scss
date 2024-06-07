@@ -303,7 +303,7 @@ body {
     // carrosel 
     & .carousel {
         margin-top: 60px;
-        
+
     }
 
     //descrição do jogo
@@ -365,7 +365,7 @@ body {
     & .text-requisito {
         text-align: center;
         color: $aqua;
-        margin: 30px 0;
+        margin: 40px 0;
 
     }
 
@@ -410,6 +410,8 @@ body {
         }
     }
 
+
+
     // link para joguar 
     & .link {
         display: flex;
@@ -437,10 +439,22 @@ body {
         }
     }
 
+    & .traller-block {
+        display: flex;
+        justify-content: center;
+
+        & .traller {
+            width: 90%;
+            border-radius: 20px;
+
+        }
+    }
+
     // comentario
     & .accordion {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.664);
-        margin-top: 50px;
+        margin: 50px;
+
     }
 }
 
@@ -519,7 +533,7 @@ body {
             & .card-info {
                 width: 30%;
                 transition: 300ms !important;
-                
+
 
                 &:hover {
                     transform: scale(1.02) !important;
@@ -535,6 +549,7 @@ body {
             & img {
                 border-radius: 20px;
             }
+
             & video {
                 border-radius: 20px;
             }

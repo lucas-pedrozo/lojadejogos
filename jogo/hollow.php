@@ -4,13 +4,13 @@
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-aos="fade" data-aos-duration="500">
   <div class="carousel-inner">
     <div class="carousel-item active">
-    <img src="game/hollow/hollow-banner.png" class="d-block w-100" alt="hollow">
+ <img src="game/hollow/hollow-banner.png" class="d-block w-100" alt="hollow" data-bs-interval="6000">
     </div>
     <div class="carousel-item">
-      <img src="game/hollow/hollow-1.png" class="d-block w-100" alt="hollow">
+      <img src="game/hollow/hollow-1.png" class="d-block w-100" alt="hollow"data-bs-interval="6000">
     </div>
     <div class="carousel-item">
-      <img src="game/hollow/hollow-2.png" class="d-block w-100" alt="hollow">
+      <img src="game/hollow/hollow-2.png" class="d-block w-100" alt="hollow"data-bs-interval="6000">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -32,6 +32,7 @@
                 malignas e alie-se a insetos bizarros, e solucione mistérios
                  antigos no centro do reino.</p>
         <!-- desenvolvedor -->
+        <p><span>Avaliação:</span> Muito bom</p>
         <p><span>Desenvolvedor:</span> Team Cherry</p>
         <p><span>Data de Lançamento:</span> 24/fev./2017</p>
         <div class="dev">
@@ -67,6 +68,16 @@
             <p><span>DirectX:</span> Versão 11</p>
         </div>
     </div>
+
+    <h4 class="text-requisito" data-aos="fade-right" data-aos-duration="300">Trailler</h4>
+
+    <div class="traller-block" data-aos="fade-up" data-aos-duration="500">
+    <video src="videos/hollow.webm" class="traller"
+    controls
+    muted 
+    poster="game/hollow/hollow-banner.png "></video>
+    </div>
+    <h5 class="text-requisito" data-aos="fade-right" data-aos-duration="300">Comentarios</h5>
 
     <div class="accordion " id="accordionPanelsStayOpenExample" data-bs-theme="dark" data-aos="fade-up">
   <div class="accordion-item">
