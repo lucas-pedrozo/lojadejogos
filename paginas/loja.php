@@ -51,20 +51,17 @@
         <a href="jogo/ghost"><img src="imagens/ghost-1.jpg" class="d-block w-100" alt="..."></a>
       </div>
       <div class="carousel-item">
-        <a href="jogo/hollow"> <img src="imagens/hollow-1.jpg" class="d-block w-100" alt="..."></a>
+        <a href="jogo/hollow"><img  src="imagens/hollow-1.jpg" class="d-block w-100" alt="..."></a>
       </div>
       <div class="carousel-item">
-        <a href="jogo/horizon
-      "><img src="imagens/horizon-1.jpg" class="d-block w-100" alt="..."></a>
+        <a href="jogo/horizon"><img src="imagens/horizon-1.jpg" class="d-block w-100" alt="..."></a>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-      data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-      data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
@@ -144,6 +141,33 @@
         </span>
       </div>
     </div>
+
+    <div class="card-flex">
+
+    <!-- php para trazer os jogos da API -->
+    <?php
+    $dadosApi = file_get_contents("http://localhost/lojadejogos/api/jogo.php");
+    $dadosApi = json_decode($dadosApi);
+
+    foreach ($dadosApi as $dados) {
+      ?>
+      <div class="card-info" data-aos="fade-up" data-aos-duration="400">
+        <a href="dados/<?= $dados->id ?>"><img src="<?php echo $dados->banner ?>" alt="<?php echo $dados->alt ?>"></a>
+        <div class="card-descricao">
+          <p>
+            <?php echo $dados->nome ?>
+          </p>
+          <span>
+            <p>
+              <?php echo $dados->preco ?>
+            </p>
+          </span>
+        </div>
+      </div>
+      <?php
+    };
+    ?>
+  </div>
 
     <div class="card-info" data-aos="fade-up" data-aos-duration="400">
       <!-- imagens do card -->

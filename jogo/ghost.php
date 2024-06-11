@@ -74,6 +74,7 @@
     <div class="traller-block" data-aos="fade-up" data-aos-duration="500">
     <video src="videos/ghost.webm" class="traller"
     controls
+    autoplay
     muted 
     poster="game/ghost/ghost-1.png"></video>
     </div>

@@ -85,6 +85,7 @@
     <div class="traller-block" data-aos="fade-up" data-aos-duration="400">
     <video src="<?php echo $dados-> trailler?>" class="traller"
     controls
+    autoplay
     muted 
     poster="<?php echo $dados-> poster?>"></video>
     </div>

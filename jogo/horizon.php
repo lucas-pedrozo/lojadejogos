@@ -70,7 +70,7 @@
   <h4 class="text-requisito" data-aos="fade-right" data-aos-duration="300">Trailler</h4>
 
   <div class="traller-block" data-aos="fade-up" data-aos-duration="500">
-    <video src="videos/horizon.webm" class="traller" controls muted poster="imagens/horizon-1.jpg"</video>
+    <video src="videos/horizon.webm" class="traller" controls muted autoplay poster="imagens/horizon-1.jpg"</video>
   </div>
 
   <h5 class="text-requisito" data-aos="fade-right" data-aos-duration="300">Comentarios</h5>

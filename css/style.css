@@ -203,7 +203,7 @@ body {
 }
 .conteiner-global .banner {
   width: 100%;
-  border-radius: 20px;
+  border-radius: none;
   box-shadow: 0 0 10px black;
 }
 
@@ -380,6 +380,9 @@ body {
   .conteiner-global .card-flex .card-info:hover {
     transform: scale(1.02) !important;
     box-shadow: 0 0 10px #002657;
+  }
+  .conteiner-global .banner {
+    border-radius: 20px;
   }
   .conteiner-global .carousel-item img {
     border-radius: 20px;

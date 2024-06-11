@@ -55,7 +55,7 @@
             <p><span>Memoria:</span> 4 GB de Ram</p>
             <p><span>Armazenamento:</span> 10 GB Disponivel</p>
             <p><span>GPU:</span> GeForce  9800GTX 1 GB de Vram</p>
-            <p><span>DirectX:</span> Versão 10</p>
+            <p><span>DirectX:</span> Versão 10</p> 
         </div>
 
         <div class="requisitos" data-aos="fade-up" data-aos-duration="400">
@@ -74,6 +74,7 @@
     <div class="traller-block" data-aos="fade-up" data-aos-duration="500">
     <video src="videos/hollow.webm" class="traller"
     controls
+    autoplay
     muted 
     poster="game/hollow/hollow-banner.png "></video>
     </div>

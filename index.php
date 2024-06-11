@@ -61,11 +61,15 @@
                                 aria-expanded="false">JOGOS</a>
                             <ul class="dropdown-menu ">
                                 <li><a class="dropdown-item" href="jogo/Golden-1">Em Busca da Golden Apple</a></li>
-                                <li><a class="dropdown-item" href="jogo/hollow">Hollow Knight</a></li>
-                                <li><a class="dropdown-item" href="#">Horizon Zero Down</a></li>
-                                <li><a class="dropdown-item" href="#">Minecraft Dungeons</a></li>
-                                <li><a class="dropdown-item" href="#">Islets</a></li>
-                                <li><a class="dropdown-item" href="#">Ghost of Tsushima</a></li>
+                                <li><a class="dropdown-item" href="jogo/Golden-1">Cat Game</a></li>
+                                <li><a class="dropdown-item" href="jogo/Golden-1">The Bird Game</a></li>
+                                <li><a class="dropdown-item" href="jogo/Golden-1">Ghost of Tsushima</a></li>
+                                <li><a class="dropdown-item" href="jogo/Golden-1">Hollow Knight</a></li>
+                                <li><a class="dropdown-item" href="jogo/Golden-1">Horizon Zero Dows</a></li>
+                                <li><a class="dropdown-item" href="jogo/Golden-1">Islets</a></li>
+                                <li><a class="dropdown-item" href="jogo/Golden-1">Minecraft Dungeons</a></li>
+                                <li><a class="dropdown-item" href="jogo/Golden-1">Hogwarts Legacy</a></li>
+                                
                             </ul>
                         </li>
                     </ul>

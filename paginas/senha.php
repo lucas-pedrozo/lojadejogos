@@ -20,7 +20,7 @@
 
 <div class="login" data-aos="fade"  data-aos-easing="ease-in-out" >
 <h2 data-aos="fade-up" data-aos-duration="400">Nova Senha</h2>
-<form method="post" action="index.php">
+<form method="post" action="login">
     <div class="form1">
             <label for="text" data-aos="fade-up" data-aos-duration="500">Nova senha:</label>
             <input type="password" name="Number" id="senha"required size="25" title="Digite seu nome Completo" data-aos="fade-up" data-aos-duration="500" placeholder="Nova senha:">

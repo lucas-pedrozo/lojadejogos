@@ -92,6 +92,7 @@ body {
 
 // navbar
 .navbar {
+
     backdrop-filter: blur(20px);
     border-radius: 0 0 20px 20px;
     z-index: 999 !important;
@@ -193,7 +194,7 @@ body {
         & img {
             opacity: 80%;
             z-index: -2 !important;
-
+        
 
         }
     }
@@ -290,7 +291,7 @@ body {
     // banner de anuncio 1!!!
     & .banner {
         width: 100%;
-        border-radius: 20px;
+        border-radius: none;
         box-shadow: 0 0 10px $black;
     }
 }
@@ -542,6 +543,9 @@ body {
             }
         }
 
+        & .banner {
+            border-radius: 20px;
+        }
 
 
         // pagina de jogos
