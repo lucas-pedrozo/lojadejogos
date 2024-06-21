@@ -50,7 +50,8 @@
   <div class="requisitos-flex">
     <div class="requisitos" data-aos="fade-up" data-aos-duration="400">
       <h4>Minimo</h4>
-      <p class="sistema">Windows</p>
+      <!-- <p class="sistema">Windows</p> -->
+      <p><span>SO:</span> Windows</p>
       <p><span>CPU:</span> Intel core i5-3500K</p>
       <p><span>Memoria:</span> 8 GB de RAM</p>
       <p><span>Armazenamento:</span> 100 GB de disponível</p>
@@ -59,7 +60,8 @@
 
     <div class="requisitos" data-aos="fade-up" data-aos-duration="400">
       <h4>Recomendado</h4>
-      <p class="sistema">Windows</p>
+      <!-- <p class="sistema">Windows</p> -->
+      <p><span>SO:</span> Windows</p>
       <p><span>CPU:</span> Intel Core i7-5700K</p>
       <p><span>Memoria:</span> 16 GB DE RAM</p>
       <p><span>Armazenamento:</span> 100 GB Disponivel</p>

@@ -88,8 +88,8 @@ $game[2] = array(
     "poster"=> "http://localhost/lojadejogos/imagens/cat-1.jpg",
 
     "comentario1" => "inferno a porra da colisao da mao que te ajudaria a subir mais atrapalha q tudo, a criador deu o cu de mal jeito quandopensou nesse jogo NÂO vale 100 R$",
-    "comentario2" => "inferno a porra da colisao da mao que te ajudaria a subir mais atrapalha q tudo, a criador deu o cu de mal jeito quandopensou nesse jogo NÂO vale 100 R$",
-    "comentario3" => "inferno a porra da colisao da mao que te ajudaria a subir mais atrapalha q tudo, a criador deu o cu de mal jeito quandopensou nesse jogo NÂO vale 100 R$",
+    "comentario2" => "Otimo Jogo muito bom só tem agumas criticas pessoais mas fora isso é um exelente game!",
+    "comentario3" => "poderia ser melhor mas para a proposta dele esta muito bom meus parabens.",
 
     
     "opiniao1"=> "Muio Ruim",

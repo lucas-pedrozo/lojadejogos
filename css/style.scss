@@ -108,6 +108,8 @@ body {
     & .nav-link {
         color: $white !important;
         font-size: 14px;
+        font-weight:500;
+
     }
 
     // navbar login
@@ -269,13 +271,17 @@ body {
                 padding: 18px 10px 10px 10px;
 
                 //nome do jogo
-                & p {
-                    color: $white;
+                & a {
+                    text-decoration: none;
+                    & p {
+                        color: $white;
+                    }
                 }
 
                 // preço do jogo  
                 & span {
                     & P {
+                        text-decoration: none;
                         background-color: #004615;
                         border-radius: 2px;
                         padding: 2px;
@@ -314,7 +320,7 @@ body {
         border-radius: 20px;
         box-shadow: 0 0 10px $black;
         margin: 20px auto;
-        padding: 10px;
+        padding: 10px 10px 15px 10px;
 
         // texto descrição
         & h4 {
@@ -342,12 +348,16 @@ body {
         // site do desenvolvedor
         & .dev {
             margin-top: 15px;
+            transition: 300ms !important;
+            &:hover {
+                transform: scale(1.02)!important;
+            }
 
             & a {
-                background-color: #d66f00;
-                background-image: linear-gradient(135deg, #ff9100 0%, #e7b716 100%);
+                background-color: #d67900;
+                background-image: linear-gradient(135deg, #d67900 0%, #e7b716 100%);
                 border-radius: 20px;
-                padding: 5px;
+                padding: 5px 8px ;
                 text-decoration: none;
                 color: $black;
                 font-weight: 600;
@@ -356,6 +366,8 @@ body {
 
                 &:hover {
                     color: $white !important;
+                    box-shadow: 0 0 10px rgba(255, 166, 0, 0.774);
+
                 }
             }
         }
@@ -366,7 +378,7 @@ body {
     & .text-requisito {
         text-align: center;
         color: $aqua;
-        margin: 40px 0;
+        margin: 45px 0;
 
     }
 
@@ -561,25 +573,13 @@ body {
 
         & .descricao {
             width: 50%;
-            transition: 400ms !important;
-
-            // hover do conteiner 
-            &:hover {
-                transform: scale(1.01) !important;
-                //box-shadow: 0 0 10px rgba(12, 30, 90, 0.466);
-            }
+           
         }
 
         & .requisitos-flex {
             & .requisitos {
                 width: 40%;
-                transition: 400ms !important;
-
-                // hover do conteiner
-                &:hover {
-                    transform: scale(1.01) !important;
-                    //box-shadow: 0 0 10px rgba(12, 30, 90, 0.466);
-                }
+              
             }
         }
 

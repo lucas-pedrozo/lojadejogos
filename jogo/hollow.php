@@ -50,7 +50,8 @@
     <div class="requisitos-flex">
         <div class="requisitos" data-aos="fade-up" data-aos-duration="400">
             <h4>Minimo</h4>
-            <p class="sistema">Windows</p>
+            <!-- <p class="sistema">Windows</p> -->
+            <p><span>SO:</span> Windows</p>
             <p><span>CPU:</span> Intel Core 2 Duo E5200</p>
             <p><span>Memoria:</span> 4 GB de Ram</p>
             <p><span>Armazenamento:</span> 10 GB Disponivel</p>
@@ -60,7 +61,8 @@
 
         <div class="requisitos" data-aos="fade-up" data-aos-duration="400">
             <h4>Recomendado</h4>
-            <p class="sistema">Windows</p>
+            <!-- <p class="sistema">Windows</p> -->
+            <p><span>SO:</span> Windows</p>
             <p><span>CPU:</span> Intel Core I5 6600K</p>
             <p><span>Memoria:</span> 8 GB DE RAM</p>
             <p><span>Armazenamento:</span> 10 GB Disponivel</p>

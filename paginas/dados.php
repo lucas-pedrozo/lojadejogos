@@ -60,7 +60,7 @@
   <div class="requisitos-flex">
     <div class="requisitos" data-aos="fade-up" data-aos-duration="400">
       <h4>Minimo</h4>
-      <p class="sistema">Windows</p>
+      <p><span>SO:</span> Windows</p>
       <p><span>CPU:</span> <?php echo $dados->info1 ?></p>
       <p><span>Memoria:</span> <?php echo $dados->info2 ?></p>
       <p><span>Armazenamento:</span> <?php echo $dados->info3 ?></p>
@@ -70,7 +70,7 @@
 
     <div class="requisitos" data-aos="fade-up" data-aos-duration="400">
       <h4>Recomendado</h4>
-      <p class="sistema">Windows</p>
+      <p><span>SO:</span> Windows</p>
       <p><span>CPU:</span> <?php echo $dados->info6 ?></p>
       <p><span>Memoria:</span> <?php echo $dados->info7 ?></p>
       <p><span>Armazenamento:</span> <?php echo $dados->info8 ?></p>

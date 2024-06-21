@@ -31,7 +31,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg v" id="navbar">
+        <nav class="navbar navbar-expand-lg " id="navbar">
 
             <div class="container-fluid">
 
@@ -59,23 +59,31 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="" data-bs-toggle="dropdown"
                                 aria-expanded="false">JOGOS</a>
-                            <ul class="dropdown-menu ">
-                                <li><a class="dropdown-item" href="jogo/Golden-1">Em Busca da Golden Apple</a></li>
-                                <li><a class="dropdown-item" href="jogo/Golden-1">Cat Game</a></li>
-                                <li><a class="dropdown-item" href="jogo/Golden-1">The Bird Game</a></li>
-                                <li><a class="dropdown-item" href="jogo/Golden-1">Ghost of Tsushima</a></li>
-                                <li><a class="dropdown-item" href="jogo/Golden-1">Hollow Knight</a></li>
-                                <li><a class="dropdown-item" href="jogo/Golden-1">Horizon Zero Dows</a></li>
-                                <li><a class="dropdown-item" href="jogo/Golden-1">Islets</a></li>
-                                <li><a class="dropdown-item" href="jogo/Golden-1">Minecraft Dungeons</a></li>
-                                <li><a class="dropdown-item" href="jogo/Golden-1">Hogwarts Legacy</a></li>
+                            <ul class="dropdown-menu">
+                                
+                                    <?php
+                                    $dadosApi = file_get_contents("http://localhost/lojadejogos/api/jogo.php");
+                                    $dadosApi = json_decode($dadosApi);
+
+                                    foreach ($dadosApi as $dados) {
+                                    ?>
+                                  <li><a class="dropdown-item" href="dados/<?= $dados->id ?>"><?php echo $dados-> nome?></a></li>
+                                    <?php
+                                    };
+                                    ?>
+                                <li><a class="dropdown-item" href="jogo/ghost">Ghost of Tsushima</a></li>
+                                <li><a class="dropdown-item" href="jogo/hollow">Hollow Knight</a></li>
+                                <li><a class="dropdown-item" href="jogo/horizon">Horizon Zero Dows</a></li>
+                                <li><a class="dropdown-item" href="null">Islets</a></li>
+                                <li><a class="dropdown-item" href="null">Minecraft Dungeons</a></li>
+                                <li><a class="dropdown-item" href="null">Hogwarts Legacy</a></li>
                                 
                             </ul>
                         </li>
                     </ul>
 
                     <a href="cadastre-se" class="btn">
-                        <strong>cadastre-se</strong>
+                        <strong>Cadastre-se</strong>
                     </a>
                     <a href="login" class="btn">
                         <strong>Login</strong>
@@ -89,7 +97,7 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Fale Conosco</h1>
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Suporte</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">

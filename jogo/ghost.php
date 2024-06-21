@@ -34,7 +34,6 @@
       Nixxes Software e...</p>
     <!-- desenvolvedor -->
     <p><span>Avaliação:</span> Muito bom</p>
-
     <p><span>Desenvolvedor:</span> Sucker Punch Productions</p>
     <p><span>Data de Lançamento:</span> 16/mai./2024</p>
     <div class="dev">
@@ -52,7 +51,8 @@
   <div class="requisitos-flex">
     <div class="requisitos" data-aos="fade-up" data-aos-duration="400">
       <h4>Minimo</h4>
-      <p class="sistema">Windows</p>
+      <!-- <p class="sistema">Windows</p> -->
+      <p><span>SO:</span> Windows</p>
       <p><span>CPU:</span> Intel core I3-7100 ou AMD Ryzen 3-1200</p>
       <p><span>Memoria:</span> 8 GB de RAM</p>
       <p><span>Armazenamento:</span> 75 GB de disponível</p>
@@ -61,7 +61,8 @@
 
     <div class="requisitos" data-aos="fade-up" data-aos-duration="400">
       <h4>Recomendado</h4>
-      <p class="sistema">Windows</p>
+      <!-- <p class="sistema">Windows</p> -->
+      <p><span>SO:</span> Windows</p>
       <p><span>CPU:</span> Intel Core i5-8600</p>
       <p><span>Memoria:</span> 16 GB DE RAM</p>
       <p><span>Armazenamento:</span> 75 GB Disponivel</p>

@@ -40,6 +40,6 @@
 
 
 </div>
-<p>As informações usadas para pre encher o formulario de login ou cadastro será usada para para melhorar sua esperiancar do usuario, suas informações seram protegidas em nosso sistema.</p>
+<p>As informações usadas para pre encher o formulario de login ou cadastro será usada para para melhorar sua experiência do usuario, suas informações seram protegidas em nosso sistema.</p>
 </body>
 </html>

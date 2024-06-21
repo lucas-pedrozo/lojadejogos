@@ -71,6 +71,7 @@ body {
 .navbar .nav-link {
   color: white !important;
   font-size: 14px;
+  font-weight: 500;
 }
 .navbar .collapse .btn {
   background-color: #d66f00;
@@ -190,10 +191,14 @@ body {
   justify-content: space-between;
   padding: 18px 10px 10px 10px;
 }
-.conteiner-global .card-flex .card-info .card-descricao p {
+.conteiner-global .card-flex .card-info .card-descricao a {
+  text-decoration: none;
+}
+.conteiner-global .card-flex .card-info .card-descricao a p {
   color: white;
 }
 .conteiner-global .card-flex .card-info .card-descricao span P {
+  text-decoration: none;
   background-color: #004615;
   border-radius: 2px;
   padding: 2px;
@@ -216,7 +221,7 @@ body {
   border-radius: 20px;
   box-shadow: 0 0 10px black;
   margin: 20px auto;
-  padding: 10px;
+  padding: 10px 10px 15px 10px;
 }
 .conteiner-global .descricao h4 {
   text-align: center;
@@ -237,12 +242,16 @@ body {
 }
 .conteiner-global .descricao .dev {
   margin-top: 15px;
+  transition: 300ms !important;
+}
+.conteiner-global .descricao .dev:hover {
+  transform: scale(1.02) !important;
 }
 .conteiner-global .descricao .dev a {
-  background-color: #d66f00;
-  background-image: linear-gradient(135deg, #ff9100 0%, #e7b716 100%);
+  background-color: #d67900;
+  background-image: linear-gradient(135deg, #d67900 0%, #e7b716 100%);
   border-radius: 20px;
-  padding: 5px;
+  padding: 5px 8px;
   text-decoration: none;
   color: black;
   font-weight: 600;
@@ -251,11 +260,12 @@ body {
 }
 .conteiner-global .descricao .dev a:hover {
   color: white !important;
+  box-shadow: 0 0 10px rgba(255, 166, 0, 0.774);
 }
 .conteiner-global .text-requisito {
   text-align: center;
   color: aqua;
-  margin: 40px 0;
+  margin: 45px 0;
 }
 .conteiner-global .requisitos-flex {
   display: flex;
@@ -392,17 +402,9 @@ body {
   }
   .conteiner-global .descricao {
     width: 50%;
-    transition: 400ms !important;
-  }
-  .conteiner-global .descricao:hover {
-    transform: scale(1.01) !important;
   }
   .conteiner-global .requisitos-flex .requisitos {
     width: 40%;
-    transition: 400ms !important;
-  }
-  .conteiner-global .requisitos-flex .requisitos:hover {
-    transform: scale(1.01) !important;
   }
   .conteiner-global .link {
     margin: 40px 0 60px 0;
