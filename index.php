@@ -7,8 +7,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <title>Crack Games</title>
 
@@ -39,9 +38,7 @@
                     <img src="imagens/logo3.jpeg" alt=" Crack games" title="crack games">
                 </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="menu navbar-toggler-icon"></span>
                 </button>
 
@@ -52,32 +49,30 @@
                             <a class="nav-link active" aria-current="page" href="index.php">LOJA</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" type="button" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal" data-bs-whatever="@mdo">SUPORTE</a>
+                            <a class="nav-link active" aria-current="page" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">SUPORTE</a>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="" data-bs-toggle="dropdown"
-                                aria-expanded="false">JOGOS</a>
+                            <a class="nav-link dropdown-toggle" href="#" role="" data-bs-toggle="dropdown" aria-expanded="false">JOGOS</a>
                             <ul class="dropdown-menu">
-                                
-                                    <?php
-                                    $dadosApi = file_get_contents("http://localhost/lojadejogos/api/jogo.php");
-                                    $dadosApi = json_decode($dadosApi);
 
-                                    foreach ($dadosApi as $dados) {
-                                    ?>
-                                  <li><a class="dropdown-item" href="dados/<?= $dados->id ?>"><?php echo $dados-> nome?></a></li>
-                                    <?php
-                                    };
-                                    ?>
+                                <?php
+                                $dadosApi = file_get_contents("http://localhost/lojadejogos/api/jogo.php");
+                                $dadosApi = json_decode($dadosApi);
+
+                                foreach ($dadosApi as $dados) {
+                                ?>
+                                    <li><a class="dropdown-item" href="dados/<?= $dados->id ?>"><?php echo $dados->nome ?></a></li>
+                                <?php
+                                };
+                                ?>
                                 <li><a class="dropdown-item" href="jogo/ghost">Ghost of Tsushima</a></li>
                                 <li><a class="dropdown-item" href="jogo/hollow">Hollow Knight</a></li>
                                 <li><a class="dropdown-item" href="jogo/horizon">Horizon Zero Dows</a></li>
                                 <li><a class="dropdown-item" href="null">Islets</a></li>
                                 <li><a class="dropdown-item" href="null">Minecraft Dungeons</a></li>
                                 <li><a class="dropdown-item" href="null">Hogwarts Legacy</a></li>
-                                
+
                             </ul>
                         </li>
                     </ul>
@@ -104,13 +99,11 @@
                         <form>
                             <div class="mb-3">
                                 <label for="recipient-name" class="col-form-label">Email:</label>
-                                <input type="email" name="nome" id="email" class="form-control"
-                                    placeholder="Digite seu Email">
+                                <input type="email" name="nome" id="email" class="form-control" placeholder="Digite seu Email">
                             </div>
                             <div class="mb-3">
                                 <label for="message-text" class="col-form-label">Mensagem:</label>
-                                <textarea class="form-control" id="message-text" rows="6"
-                                    placeholder="Digite sua mensagem"></textarea>
+                                <textarea class="form-control" id="message-text" rows="6" placeholder="Digite sua mensagem"></textarea>
                             </div>
                         </form>
                     </div>
@@ -138,7 +131,6 @@
 
         if ($page == "jogo") {
             $pagina = "jogo/{$jogo}.php";
-
         } else {
             $pagina = "paginas/{$page}.php";
         }
