@@ -134,6 +134,34 @@
       </div>
     </div>
 
+     <!-- php para trazer os jogos da API -->
+     <?php
+    $dadosApi = file_get_contents("http://localhost/lojadejogos/api/jogo.php");
+    $dadosApi = json_decode($dadosApi);
+
+    foreach ($dadosApi as $dados) {
+    ?>
+      <div class="card-info" data-aos="fade-up" data-aos-duration="400">
+        <a href="dados/<?= $dados->id ?>"><img src="<?php echo $dados->banner ?>" alt="<?php echo $dados->alt ?>"></a>
+        <div class="card-descricao">
+          <a href="dados/<?= $dados->id ?>">
+            <p>
+              <?php echo $dados->nome ?>
+            </p>
+          </a>
+          <a href="dados/<?= $dados->id ?>">
+            <span>
+
+              <p>
+                <?php echo $dados->preco ?>
+              </p>
+            </span>
+          </a>
+        </div>
+      </div>
+    <?php
+    };
+    ?>
 
 
     <div class="card-info" data-aos="fade-up" data-aos-duration="400">
@@ -177,36 +205,6 @@
       </div>
     </div>
 
-    <div class="card-flex">
-
-      <!-- php para trazer os jogos da API -->
-      <?php
-      $dadosApi = file_get_contents("http://localhost/lojadejogos/api/jogo.php");
-      $dadosApi = json_decode($dadosApi);
-
-      foreach ($dadosApi as $dados) {
-      ?>
-        <div class="card-info" data-aos="fade-up" data-aos-duration="400">
-          <a href="dados/<?= $dados->id ?>"><img src="<?php echo $dados->banner ?>" alt="<?php echo $dados->alt ?>"></a>
-          <div class="card-descricao">
-            <a href="dados/<?= $dados->id ?>">
-              <p>
-                <?php echo $dados->nome ?>
-              </p>
-            </a>
-            <a href="dados/<?= $dados->id ?>">
-              <span>
-                <p>
-                  <?php echo $dados->preco ?>
-                </p>
-              </span>
-            </a>
-          </div>
-        </div>
-      <?php
-      };
-      ?>
-    </div>
-
+  
   </div>
 </section>

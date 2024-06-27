@@ -96,21 +96,28 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <form>
+                        <form action="https://formsubmit.co/lucaspedroozoo@hotmail.com" method="POST">
                             <div class="mb-3">
                                 <label for="recipient-name" class="col-form-label">Email:</label>
-                                <input type="email" name="nome" id="email" class="form-control" placeholder="Digite seu Email">
+                                <input type="email" name="nome" id="email" class="form-control" placeholder="Digite seu Email" required oninput="emailRagex">
                             </div>
                             <div class="mb-3">
                                 <label for="message-text" class="col-form-label">Mensagem:</label>
-                                <textarea class="form-control" id="message-text" rows="6" placeholder="Digite sua mensagem"></textarea>
+                                <textarea class="form-control" id="message-text" rows="6" placeholder="Digite sua mensagem" required></textarea>
                             </div>
+
+                            <div class="modal-footer">
+                        <button type="button" class="btn" data-bs-dismiss="modal" href="index.php">Fechar</button>
+                        <button type="hidden" name="_sudject" value="Novo Contato!" class="btn">Enviar</button>
+                    </div>
+
+                            <input type="hidden" name="_sudject" value="Novo Contato!">
+                            <input type="text" name="_honey" style="display: none;">
+                            <input type="hidden" name="_captcha" value="false">
+
                         </form>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn" data-bs-dismiss="modal">Fechar</button>
-                        <button type="button" class="btn" data-bs-dismiss="modal">Enviar</button>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -170,6 +177,11 @@
         AOS.init();
     </script>
 
+        <script>
+
+             const emailRagex =/^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+
+        </script>
 </body>
 
 </html>
