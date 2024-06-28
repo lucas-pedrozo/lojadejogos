@@ -16,22 +16,26 @@
 <form method="post" action=" login">
     <div class="form1">
             <label for="text" data-aos="fade-up" data-aos-duration="500">Email:</label>
-            <input type="email" name="email" id="email" required size="25" data-aos="fade-up" data-aos-duration="500" placeholder="Endereço de Email:">
+            <input type="email" name="email" id="email" class="required" oninput="emailValidate()" required size="25" data-aos="fade-up" data-aos-duration="500" placeholder="Endereço de Email:" >
+            <span class="span-required" style="display: none; color: red;">Digite um email valido</span>
     </div>
 </br>
     <div class="form1">
             <label for="text" data-aos="fade-up" data-aos-duration="500">Nome completo:</label>
-            <input type="text" name="nome" id="nome" required size="25" data-aos="fade-up" data-aos-duration="500" placeholder="Digite seu nome:">
+            <input type="text" name="nome" id="nome" class="required" oninput="nomeValidate()" required size="25" data-aos="fade-up" data-aos-duration="500" placeholder="Digite seu nome:">
+            <span class="span-required" style="display: none; color: red;" >Deve ter pelo 3 digitos </span>
     </div>
 </br>
     <div class="form1">
-            <label for="text" data-aos="fade-up" data-aos-duration="500">Senha:</label>
-            <input type="password" name="Number"required id="senha" size="25"  data-aos="fade-up" data-aos-duration="500" placeholder="Digite sua senha:">
+            <label for="text" data-aos="fade-up"  data-aos-duration="500">Senha:</label>
+            <input type="password" name="Number" class="required" oninput="mainPasswordValidate()" required id="senha" size="25"  data-aos="fade-up" data-aos-duration="500" placeholder="Digite sua senha:">
+            <span class="span-required"style="display: none; color: red;" >Deve ter pelo menos 8 digetos </span>
     </div>
 </br>
     <div class="form1">
                 <label for="text" data-aos="fade-up" data-aos-duration="500">Confirme sua Senha:</label>
-                <input type="password" name="Number" requiredid="senha" size="25" data-aos="fade-up" data-aos-duration="500" placeholder="Digite novamente:">
+                <input type="password" name="Number" class="required" oninput="mainPasswordValidate2()" requiredid="senha" size="25" data-aos="fade-up" data-aos-duration="500" placeholder="Digite novamente:">
+                <span class="span-required"style="display: none; color: red;" >Senha senha incorreta</span>
         </div>
 </br>
     <div class="botao-flex" data-aos="fade-up">
@@ -46,4 +50,5 @@
 </div>
 <p>As informações usadas para pre encher o formulario de login ou cadastro será usada para para melhorar sua experiência do usuario, suas informações seram protegidas em nosso sistema.</p>
 </body>
+<script src="js/cadastro.js"></script>
 </html>

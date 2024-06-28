@@ -15,26 +15,27 @@ function removeError(index) {
 }
 
 
-function nomeValidate() {
-  if (campos[0].valeu.length < 3) {
-
-    setError(0);
-
-  }
-  else {
-    console.log('VALIDO NOME');
-  }
-
-}
 
 
 function emailValidate() {
-  if (!emailRegex.test(campos[1])) {
-    setError(1);
+  if (!emailRegex.test(campos[0].value)) {
+    setError(0);
   } else {
-    removaError(1);
+    removeError(0);
   }
 }
+
+function nomeValidate() {
+  if (campos[1].value.length < 3) {
+
+    setError(1);
+
+  }
+  else {
+    removeError(1);
+  }
+}
+
 function mainPasswordValidate() {
   if (campos[2].value.length < 8) {
     setError(2);
@@ -43,3 +44,18 @@ function mainPasswordValidate() {
     removeError(2);
   }
 }
+
+function mainPasswordValidate2() {
+  if (campos[3].value.length < 8) {
+    setError(3);
+  }
+  else {
+    removeError(3);
+  }
+}
+
+// function comparePassword() {
+//   if (campos[2].value == campos[3].value && campos[3].value.length >= 8 ) {
+//     removeError(3);
+//   }
+// }

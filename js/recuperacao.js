@@ -15,3 +15,20 @@ function removeError(index) {
 
 }
 
+function mainPasswordValidate() {
+  if (campos[0].value.length < 8) {
+    setError(0);
+  }
+  else {
+    removeError(0);
+  }
+}
+
+function mainPasswordValidate2() {
+  if (campos[1].value.length < 8) {
+    setError(1);
+  }
+  else {
+    removeError(1);
+  }
+}
