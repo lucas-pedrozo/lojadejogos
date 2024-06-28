@@ -96,7 +96,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <form action="https://formsubmit.co/lucaspedroozoo@hotmail.com" method="POST">
+                        <form action="https://formsubmit.co/lucaspedroozoo31@gmail.com" method="POST">
                             <div class="mb-3">
                                 <label for="recipient-name" class="col-form-label">Email:</label>
                                 <input type="email" name="nome" id="email" class="form-control" placeholder="Digite seu Email" required oninput="emailRagex">
@@ -167,21 +167,17 @@
         </div>
     </footer>
 
-    <!--codigos javascript-->
-
-    <script src="js/bootstrap.bundle.min.js"></script>
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-    <script>
-        AOS.init();
-    </script>
-
-        <script>
-
-             const emailRagex =/^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
-
-        </script>
+    
 </body>
+<!--codigos javascript-->
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+</script>
+ 
 
 </html>
