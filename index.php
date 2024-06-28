@@ -107,9 +107,9 @@
                             </div>
 
                             <div class="modal-footer">
-                        <button type="button" class="btn" data-bs-dismiss="modal" href="index.php">Fechar</button>
-                        <button type="hidden" name="_sudject" value="Novo Contato!" class="btn">Enviar</button>
-                    </div>
+                                <button type="button" class="btn" data-bs-dismiss="modal" href="index.php">Fechar</button>
+                                <button type="hidden" name="_sudject" value="Novo Contato!" class="btn">Enviar</button>
+                            </div>
 
                             <input type="hidden" name="_sudject" value="Novo Contato!">
                             <input type="text" name="_honey" style="display: none;">
@@ -117,7 +117,7 @@
 
                         </form>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -167,7 +167,7 @@
         </div>
     </footer>
 
-    
+
 </body>
 <!--codigos javascript-->
 
@@ -178,6 +178,6 @@
 <script>
     AOS.init();
 </script>
- 
+
 
 </html>
