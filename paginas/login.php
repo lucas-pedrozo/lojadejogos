@@ -27,14 +27,14 @@
             <form id="form" action="index.php">
                 <div class="form1">
                     <label for="text" data-aos="fade-up" data-aos-duration="500">Email:</label>
-                    <input type="email" nome="email" class="required" oninput="emailValidate()" required size="25"  data-aos="fade-up" data-aos-duration="500" placeholder="Endereço de Email:">
+                    <input type="email" nome="email" class="required" oninput="emailValidate()" required size="25" data-aos="fade-up" data-aos-duration="500" placeholder="Endereço de Email:">
                     <span class="span-required" style="display: none; color: red;">Digite um email valido</span>
                 </div>
                 </br>
                 <div class="form1">
                     <label for="text" data-aos="fade-up" data-aos-duration="500">Senha:</label>
                     <input type="password" nome="senha" class="required" oninput="mainPasswordValidate()" required size="25" data-aos="fade-up" data-aos-duration="500" placeholder="Digite sua senha:">
-                    <span class="span-required"style="display: none; color: red;" >Senha incorreta</span>
+                    <span class="span-required" style="display: none; color: red;">Senha incorreta</span>
                 </div>
                 </br>
                 <div class="botao-flex" data-aos="fade-up">

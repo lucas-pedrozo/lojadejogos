@@ -192,13 +192,12 @@ body {
   padding: 18px 10px 10px 10px;
 }
 .conteiner-global .card-flex .card-info .card-descricao a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .conteiner-global .card-flex .card-info .card-descricao a p {
   color: white;
 }
 .conteiner-global .card-flex .card-info .card-descricao span P {
-  text-decoration: none;
   background-color: #004615;
   border-radius: 2px;
   padding: 2px;

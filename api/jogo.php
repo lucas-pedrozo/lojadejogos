@@ -10,7 +10,7 @@ $game[1] = array(
     "nome" => "Golden Apple",
     "preco" => "R$ 17,90",
     "link" => "dados",
-    "classificacao"=> "Muito bom",
+    "classificacao" => "Muito bom",
 
     "carousel1" => "http://localhost/lojadejogos/imagens/golden-1.jpg",
     "carousel2" => "http://localhost/lojadejogos/game/golden/golden-1.png",
@@ -37,16 +37,16 @@ $game[1] = array(
     "info9" => "Geforce RTX 3060",
     "info10" => "Versão 11",
 
-    "trailler"=> "http://localhost/lojadejogos/videos/golden.webm",
+    "trailler" => "http://localhost/lojadejogos/videos/golden.webm",
     "poster" => "http://localhost/lojadejogos/imagens/golden-1.jpg",
 
     "comentario1" => "inferno a porra da colisao da mao que te ajudaria a subir mais atrapalha q tudo, a criador deu o cu de mal jeito quandopensou nesse jogo NÂO vale nem R$100",
     "comentario2" => "Meus parabens que jogo ótimo mas muito dificil porconta de sua jogabalidade ser bem  disafiadora",
     "comentario3" => "Na minha opinião o cara que criou esse jogo não sabe de nada, ele tinha que esta em uma prisão ou em um maniconio kkkkk.",
 
-    "opiniao1"=> "Muio Ruim",
-    "opiniao2"=> "Muito bom",
-    "opiniao3"=> "orivel",
+    "opiniao1" => "Muio Ruim",
+    "opiniao2" => "Muito bom",
+    "opiniao3" => "orivel",
 );
 
 $game[2] = array(
@@ -56,7 +56,7 @@ $game[2] = array(
     "nome" => "Cat Game",
     "preco" => "R$ 27,90",
     "link" => "dados",
-    "classificacao"=> "Muito bom",
+    "classificacao" => "Muito bom",
 
     "carousel1" => "http://localhost/lojadejogos/imagens/cat-1.jpg",
     "carousel2" => "http://localhost/lojadejogos/game/cat/cat-1.jpg",
@@ -84,17 +84,17 @@ $game[2] = array(
     "info9" => "Geforce GTX 750",
     "info10" => "Versão 11",
 
-    "trailler"=> "",
-    "poster"=> "http://localhost/lojadejogos/imagens/cat-1.jpg",
+    "trailler" => "",
+    "poster" => "http://localhost/lojadejogos/imagens/cat-1.jpg",
 
     "comentario1" => "inferno a porra da colisao da mao que te ajudaria a subir mais atrapalha q tudo, a criador deu o cu de mal jeito quandopensou nesse jogo NÂO vale 100 R$",
     "comentario2" => "Otimo Jogo muito bom só tem agumas criticas pessoais mas fora isso é um exelente game!",
     "comentario3" => "poderia ser melhor mas para a proposta dele esta muito bom meus parabens.",
 
-    
-    "opiniao1"=> "Muio Ruim",
-    "opiniao2"=> "Muito bom",
-    "opiniao3"=> "orivel",
+
+    "opiniao1" => "Muio Ruim",
+    "opiniao2" => "Muito bom",
+    "opiniao3" => "orivel",
 
 );
 
@@ -105,7 +105,7 @@ $game[3] = array(
     "nome" => "The Bird Game",
     "preco" => "R$ 9,89",
     "link" => "dados",
-    "classificacao"=> "Muito bom",
+    "classificacao" => "Muito bom",
 
     "carousel1" => "http://localhost/lojadejogos/imagens/the-bird-1.jpg",
     "carousel2" => "http://localhost/lojadejogos/imagens/the-bird-1.jpg",
@@ -136,19 +136,17 @@ $game[3] = array(
     "info9" => "GEforce GTX 1050 4 GB de Vram",
     "info10" => "Versão 11",
 
-    "trailler"=> "",
-    "poster"=> "http://localhost/lojadejogos/imagens/the-bird-1.jpg",
+    "trailler" => "",
+    "poster" => "http://localhost/lojadejogos/imagens/the-bird-1.jpg",
 
     "comentario1" => "inferno a porra da colisao da mao que te ajudaria a subir mais atrapalha q tudo, a criador deu o cu de mal jeito quandopensou nesse jogo NÂO vale 100 R$",
     "comentario2" => "inferno a porra da colisao da mao que te ajudaria a subir mais atrapalha q tudo, a criador deu o cu de mal jeito quandopensou nesse jogo NÂO vale 100 R$",
     "comentario3" => "inferno a porra da colisao da mao que te ajudaria a subir mais atrapalha q tudo, a criador deu o cu de mal jeito quandopensou nesse jogo NÂO vale 100 R$",
 
-    
-    "opiniao1"=> "Muio Ruim",
-    "opiniao2"=> "Muito bom",
-    "opiniao3"=> "orivel",
+
+    "opiniao1" => "Muio Ruim",
+    "opiniao2" => "Muito bom",
+    "opiniao3" => "orivel",
 );
 
 echo json_encode($game);
-
-

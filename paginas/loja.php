@@ -69,14 +69,14 @@
               <?php echo $dados->nome ?>
             </p>
           </a>
-          <a href="dados/<?= $dados->id ?>">
+        
             <span>
 
               <p>
                 <?php echo $dados->preco ?>
               </p>
             </span>
-          </a>
+          
         </div>
       </div>
     <?php
@@ -96,13 +96,13 @@
       <!-- imagens do card -->
       <a href="jogo/ghost"> <img src="imagens/ghost-3.jpg" alt="ghost" class="card-img-top"></a>
       <div class="card-descricao">
-        <a href="jogo/ghost">
+        <a href="jogo/ghost" >
           <p>Ghost of Tsushima</p>
         </a>
         <span>
-          <a href="jogo/ghost">
+         
             <p>R$ 249,90</p>
-          </a>
+        
         </span>
       </div>
 
@@ -115,9 +115,9 @@
         <a href="jogo/hollow">
           <p>Hollow Knight</p>
         </a>
-        <a href="jogo/hollow"> <span>
+         <span>
             <p>R$ 56,99</p>
-          </span></a>
+          </span>
       </div>
     </div>
 
@@ -134,8 +134,8 @@
       </div>
     </div>
 
-     <!-- php para trazer os jogos da API -->
-     <?php
+    <!-- php para trazer os jogos da API -->
+    <?php
     $dadosApi = file_get_contents("http://localhost/lojadejogos/api/jogo.php");
     $dadosApi = json_decode($dadosApi);
 
@@ -144,19 +144,19 @@
       <div class="card-info" data-aos="fade-up" data-aos-duration="400">
         <a href="dados/<?= $dados->id ?>"><img src="<?php echo $dados->banner ?>" alt="<?php echo $dados->alt ?>"></a>
         <div class="card-descricao">
-          <a href="dados/<?= $dados->id ?>">
+          <a href="dados/<?= $dados->id ?>" >
             <p>
               <?php echo $dados->nome ?>
             </p>
           </a>
-          <a href="dados/<?= $dados->id ?>">
+         
             <span>
 
               <p>
                 <?php echo $dados->preco ?>
               </p>
             </span>
-          </a>
+         
         </div>
       </div>
     <?php
@@ -171,10 +171,10 @@
         <a href="null">
           <p>Islets</p>
         </a>
-        <a href="null">
+        
           <span>
             <p>R$ 46,99</p>
-          </span></a>
+          </span>
       </div>
     </div>
 
@@ -185,10 +185,10 @@
         <a href="null">
           <p>Minecraft Dungeons</p>
         </a>
-        <a href="null">
+       
           <span>
             <p>R$ 47,99</p>
-          </span></a>
+          </span>
       </div>
     </div>
 
@@ -199,12 +199,12 @@
         <a href="null">
           <p>Hogwarts Legacy</p>
         </a>
-        <a href="null"><span>
+       <span>
             <p>R$ 192,78</p>
-          </span></a>
+          </span>
       </div>
     </div>
 
-  
+
   </div>
 </section>

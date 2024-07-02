@@ -10,26 +10,23 @@
 
   ?>
 
-  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-aos="fade"
-    data-aos-duration="500">
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-aos="fade" data-aos-duration="500">
     <div class="carousel-inner">
-      <div class="carousel-item active"  data-bs-interval="4000">
+      <div class="carousel-item active" data-bs-interval="4000">
         <img src="<?php echo $dados->carousel1 ?>" class="d-block w-100" alt="jogo">
       </div>
       <div class="carousel-item" data-bs-interval="4000">
         <img src="<?php echo $dados->carousel2 ?>" class="d-block w-100" alt="jogo">
       </div>
-      <div class="carousel-item"  data-bs-interval="4000">
+      <div class="carousel-item" data-bs-interval="4000">
         <img src="<?php echo $dados->carousel3 ?>" class="d-block w-100" alt="jogo">
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-      data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-      data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
@@ -82,21 +79,15 @@
 
   <h4 class="text-requisito" data-aos="fade-right" data-aos-duration="300">Trailler</h4>
 
-    <div class="traller-block" data-aos="fade-up" data-aos-duration="400">
-    <video src="<?php echo $dados-> trailler?>" class="traller"
-    controls
-    autoplay
-    muted 
-    poster="<?php echo $dados-> poster?>"></video>
-    </div>
-    <h5 class="text-requisito" data-aos="fade-right" data-aos-duration="300">Comentarios</h5>
+  <div class="traller-block" data-aos="fade-up" data-aos-duration="400">
+    <video src="<?php echo $dados->trailler ?>" class="traller" controls autoplay muted poster="<?php echo $dados->poster ?>"></video>
+  </div>
+  <h5 class="text-requisito" data-aos="fade-right" data-aos-duration="300">Comentarios</h5>
   <!-- comentario -->
-  <div class="accordion " id="accordionPanelsStayOpenExample" data-bs-theme="dark" data-aos="fade-up"
-    data-aos-duration="400">
+  <div class="accordion " id="accordionPanelsStayOpenExample" data-bs-theme="dark" data-aos="fade-up" data-aos-duration="400">
     <div class="accordion-item">
       <h2 class="accordion-header">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-          data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
           Rodigo dos santos
         </button>
       </h2>
@@ -108,8 +99,7 @@
     </div>
     <div class="accordion-item">
       <h2 class="accordion-header">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-          data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
           Luana Patricia
         </button>
       </h2>
@@ -121,9 +111,7 @@
     </div>
     <div class="accordion-item">
       <h2 class="accordion-header">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-          data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-          aria-controls="panelsStayOpen-collapseThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
           Lucas Pedrozo
         </button>
       </h2>

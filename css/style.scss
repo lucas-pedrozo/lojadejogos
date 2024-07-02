@@ -272,7 +272,7 @@ body {
 
                 //nome do jogo
                 & a {
-                    text-decoration: none;
+                    text-decoration: none !important;
 
                     & p {
                         color: $white;
@@ -282,7 +282,6 @@ body {
                 // preço do jogo  
                 & span {
                     & P {
-                        text-decoration: none;
                         background-color: #004615;
                         border-radius: 2px;
                         padding: 2px;

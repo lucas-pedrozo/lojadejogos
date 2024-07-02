@@ -123,7 +123,9 @@
         </div>
 
     </header>
+
     <main>
+
         <?php
 
         if (isset($_GET["param"])) {
@@ -152,6 +154,8 @@
 
     </main>
 
+    <!-- FOOTER -->
+
     <footer class="footer">
         <h2 class="text-footer">Redes Sociais</h2>
         <div class="links">
@@ -169,15 +173,13 @@
 
 
 </body>
+
 <!--codigos javascript-->
 
 <script src="js/bootstrap.bundle.min.js"></script>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-<script>
-    AOS.init();
-</script>
-
+<script> AOS.init(); </script>
 
 </html>
